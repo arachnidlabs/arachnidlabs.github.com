@@ -25,4 +25,4 @@ Finally, the joystick. This is a part I picked up in bulk from China, courtesy o
 
 All in all, the display plank is a flexible board for basic user interaction, and I hope to be able to provide it at a much lower price than most similar expansion boards using character displays. I think this is going to make for some great demo apps, too - [Snake][1], anyone? If you've got an idea for a great way to show the plank off, don't hesitate to leave a comment, too!
 
-[1]http://en.wikipedia.org/wiki/Snake_(video_game)
+[1]: http://en.wikipedia.org/wiki/Snake_(video_game)
