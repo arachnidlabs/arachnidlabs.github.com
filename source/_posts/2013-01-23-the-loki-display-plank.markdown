@@ -7,7 +7,7 @@ categories: loki
 ---
 Today we'll take a quick look at one of Loki's initial expansion boards, the display plank.
 
-![](https://lh4.googleusercontent.com/-m1Fb6XIYXtY/UP70JDEByeI/AAAAAAAACW4/rKQrUnBIxjU/w317-h237-n-k/P1010181.JPG)
+![](https://lh5.googleusercontent.com/-8P3sEo00Q54/UQLmBVLtCWI/AAAAAAAACa4/O6BAY0AjvCk/w387-h290-n-k/P1010188.JPG)
 
 The display plank is a straightforward user interface plank, featuring an 84x48 dot matrix LCD display with backlight, and a 5-way (4 directions plus center click) digital joystick. It takes up 8 GPIO pins from the Loki, and it's a "top plank", meaning nothing else can be stacked on top of it.
 
