@@ -6,7 +6,7 @@ comments: true
 categories: loki
 ---
 
-As mentioned in a previous progress update post, I've been working with Firehopper, from the #sparkfun channel on freenode, to design a constant current plank, aimed at driving high powered LEDs. It's just about done, with only some minor silkscreen issues to go.
+As mentioned in a previous progress update post, I've been working with Firehopper, from the [#sparkfun](http://webchat.freenode.net/?channels=sparkfun) channel on freenode, to design a constant current plank, aimed at driving high powered LEDs. It's just about done, with only some minor silkscreen issues to go.
 
 ![](https://github.com/arachnidlabs/loki/blob/master/schematics/currentplank/currentplank-layout.png?raw=true)
 
@@ -16,4 +16,4 @@ The use of a shunt is actually somewhat inconvenient, since it makes adjusting t
 
 The provision of a PWM pin makes this board a perfect fit for the PSoC's built in lighting controller module, the [PrISM](http://www.cypress.com/?rID=48890). Instead of using PWM like regular controllers, PrISM uses a random sequence generator hooked up to a comparator. Each step, the value in the comparator is compared to a generated value, and the output goes high if it's higher, and low otherwise. The result is much like PWM, but with the significant advantage that you can update the compare value at any time without glitches, and the effective illumination will quickly and smoothly adjust to the new value.
 
-I'm quite pleased with the layout on this board, too. I've been trying pay more attention to the attractiveness of PCB layouts recently, after seeing some really nice ones in #hackvana on freenode. A symmetrical and well laid out PCB looks a lot more attractive than one with parts all over the place, and I think I've done a pretty good job here.
+I'm quite pleased with the layout on this board, too. I've been trying pay more attention to the attractiveness of PCB layouts recently, after seeing some really nice ones in [#hackvana](http://webchat.freenode.net/?channels=hackvana) on freenode. A symmetrical and well laid out PCB looks a lot more attractive than one with parts all over the place, and I think I've done a pretty good job here.
