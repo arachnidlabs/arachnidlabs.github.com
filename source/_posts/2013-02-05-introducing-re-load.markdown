@@ -8,7 +8,7 @@ categories: reload
 
 A while ago I found myself in need of a dummy load for testing a power supply, and was surprised to find that there weren't any good kits around for this. On the commercial end of things, dummy loads tend to be large, powerful, and incredibly expensive. There's a few hobbyist projects out there, but they tend to fall into two categories: absurdly overcomplicated and expensive, or unavailable. So I set out to design and build my own, hopefully solving the problem for everyone.
 
-![](https://lh4.googleusercontent.com/-T1PcMZGxc-Y/URAz5pZtemI/AAAAAAAACfA/BvbL4_XcCoQ/w531-h480-p-k/P1010224.JPG)
+![](https://lh3.googleusercontent.com/-fTkZ4qhyvtA/URGIj7gXSaI/AAAAAAAACg0/wUT-7_M95ag/s665/P1010249.JPG)
 
 Re:load is an adjustable constant-current load with several key properties:
 
