@@ -12,6 +12,10 @@ Loki is a microcontroller development board based on Cypress's [PSoC 5 processor
 
 The end result of all this is a microcontroller platform that leaps past past your average Arduino clone, allowing you to create more interesting and involved projects, while spending less time messing around with protoboards and bitbashing, and more time on the parts of your project that matter to you. Cypress's [PSoC Creator](http://www.cypress.com/?id=2494) IDE provides a powerful environment in which to develop your code, with high level easy to understand APIs, and a graphical digital design tool for configuring the programmable logic components, while the flexible expansion system lets you combine any expansion planks you need to get your project working. The PSoCs configurability means less glue logic and fewer external components, too, which will mean cheaper and more flexible expansion planks than other systems. For example, the analog audio expansion plank provides stereo line in and out with only a few passive components, relying on the PSoC's built in analog functionality to do the heavy lifting.
 
-Keep an eye out here for more documentation on Loki soon, including detailed technical specifications and details for anyone wanting to make their own planks. In the meantime, you can peruse [these blog posts about Loki](/blog/categories/loki/).
-
 If you're interested in contributing to the Loki platform by being an alpha tester, writing code, or designing your own planks, please get in touch by [emailing Nick](mailto:nick@arachnidlabs.com). We're doing everything we can to make Loki a success, and we're looking for collaborators!
+
+== Documentation
+
+[Loki Plank Specification](planks.html)
+
+For more (informal) documentation, you should read [these blog posts about Loki](/blog/categories/loki/).
