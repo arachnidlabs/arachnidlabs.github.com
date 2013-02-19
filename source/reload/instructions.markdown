@@ -60,35 +60,35 @@ If you have a regular Re:load, do not select the 75k resistor for 6 amps. Your R
 
 After inserting the resistors and diode, turn the PCB over like so:
 
-![](stage1.jpg)
+![](stage1.JPG)
 
 Now, solder the components in, making sure they're close to the PCB, then clip off the excess leads:
 
-![](stage2.jpg)
+![](stage2.JPG)
 
 Turning the PCB over, we can see the parts soldered neatly in place:
 
-![](stage3.jpg)
+![](stage3.JPG)
 
 Now insert and solder the Opamp in the position marked IC1. Make sure that you insert it the right way around, matching up the indentation on the IC with the one on the board's silkscreen.
 
-![](stage4.jpg)
+![](stage4.JPG)
 
 Next, add the voltage regulator and the two ceramic capacitors. Make sure to insert the voltage regulator the right way around, so it matches the drawing on the board's silkscreen. The capacitors can go in either way around. Each one has a different lead spacing, so it's easy to tell which goes where.
 
-![](stage5.jpg)
+![](stage5.JPG)
 
 Now solder in the large 0.05 ohm shunt resistor in the space marked R1.
 
-![](stage6.jpg)
+![](stage6.JPG)
 
 Add the spring terminals and the electrolytic capacitor. There's only one sensible direction for the spring terminals to go. The capacitor is polarised - make sure to match up the longer '-' lead with the marked pin on the board.
 
-![](stage7.jpg)
+![](stage7.JPG)
 
 Now the potentiometer. You will have to wiggle it a bit and press reasonably hard before the pins clip into the slots. Once it's in, solder both the electrical contacts and the mounting pins to keep it in place.
 
-![](stage8.jpg)
+![](stage8.JPG)
 
 Now for the transistor and the heatsink. It's important to attach the transistor to the heatsink before adding either to the PCB.
 
@@ -96,11 +96,11 @@ First, take out the packet or syringe of thermal paste. Apply it to the back of 
 
 Then, line the transistor up against the heatsink so that the hole in the transistor is aligned with the middle hole on the heatsink. The legs should stick down so that the thicker part of the legs are entirely above the bottom of the heatsink. Otherwise, the transistor will not fit neatly on the board. Insert the provided screw and nut, and tighten with a screwdriver.
 
-![](stage9.jpg)
+![](stage9.JPG)
 
 Finally, insert the heatsink and the transistor into their holes on the PCB. Some care will be needed to line everything up neatly. Once you have, solder the transistor and heatsink to the board. You will need a lot of heat and a fair bit of solder to solder the heatsink pins!
 
-![](stage10.jpg)
+![](stage10.JPG)
 
 Congratulations! You've built your Re:load! Now read on to calibrate and use it.
 
