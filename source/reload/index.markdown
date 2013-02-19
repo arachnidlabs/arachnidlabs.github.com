@@ -16,5 +16,5 @@ Re:load is an adjustable constant-current load with several key properties:
  - Small. Chuck it in your toolbox once you're done and pull it out when you need it next.
 
 You can read a detailed post about Re:load's construction and specifications [here](/blog/2013/02/05/introducing-re-load/).
- 
-Assembly instructions coming soon!
+
+For detailed assembly and usage instructions, see [here](instructions.html).
