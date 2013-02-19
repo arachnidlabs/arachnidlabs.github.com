@@ -27,7 +27,7 @@ The parts in your kit will depend on whether you have a regular Re:load or the "
   <tr><th>C2</th><td colspan="2">33uF Electrolytic Capacitor</td><td>1</td></tr>
   <tr><th>C3</th><td colspan="2">1uF Ceramic Capacitor</td><td>1</td></tr>
   <tr><th>C1</th><td colspan="2">0.1uF Ceramic Capacitor</td><td>1</td></tr>
-  <tr><th rowspan="3">R3<br>(See instructions)</th><td colspan="2">510k ohm resistor</td><td>1</td></tr>
+  <tr><th rowspan="3">R3<br>(see below)</th><td colspan="2">510k ohm resistor</td><td>1</td></tr>
   <tr><td colspan="2">160k ohm resistor</td><td>1</td></tr>
   <tr><td colspan="2">75k ohm resistor</td><td>1</td></tr>
   <tr><th>R4, R5</th><td colspan="2">10k ohm 1% resistor</td><td>2</td></tr>
