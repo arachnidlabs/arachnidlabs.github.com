@@ -41,8 +41,6 @@ The parts in your kit will depend on whether you have a regular Re:load or the "
 
 First, place the resistors R3, R4, R5 and R7, and the diode D1 as marked. The resistors can face either way, but make sure you match the diode's stripe with the one printed on the board.
 
-The diode is present to protect Re:load against damage due to reverse polarity. All diodes have a voltage drop, however, and the result of the Re:load's protection diode is a slight decrease in efficiency at low voltages. If you anticipate using the Re:load at low voltages - below about 4 volts - a lot, and need higher currents and better constant-current performance at those voltages - you may want to (at your own risk!) leave out the protection diode D1, replacing it with a wire link instead. If you do this, beware - hooking Re:load up in reverse polarity will most likely destroy it!
-
 Several alternative choices are provided for R3, which determines the range of currents that can be set for the Re:load. Choose R3 according to the maximum current you want to be able to set:
 
 <table>
@@ -57,6 +55,8 @@ Several alternative choices are provided for R3, which determines the range of c
 Selecting a smaller max current allows you to adjust the current within that range more accurately.
 
 If you have a regular Re:load, do not select the 75k resistor for 6 amps. Your Re:load will not do 6 amps; it will still max out at 3, making half the potentiometer's range useless!
+
+The diode is present to protect Re:load against damage due to reverse polarity. All diodes have a voltage drop, however, and the result of the Re:load's protection diode is a slight decrease in efficiency at low voltages. If you anticipate using the Re:load at low voltages - below about 4 volts - a lot, and need higher currents and better constant-current performance at those voltages - you may want to (at your own risk!) leave out the protection diode D1, replacing it with a wire link instead. If you do this, beware - hooking Re:load up in reverse polarity will most likely destroy it!
 
 After inserting the resistors and diode, turn the PCB over like so:
 
