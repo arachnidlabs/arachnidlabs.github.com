@@ -17,7 +17,7 @@ animations, which can be programmed using an infrared remote control
 or from a computer via an Arduino or similar development platform. You
 can even use it as an interactive display by updating it live!
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/cMi9UnKH-kU?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/QNA6DSa0spc" frameborder="0" allowfullscreen></iframe>
 
 Minimatrix is based around a small single-color LED matrix and an ATTiny4313
 microcontroller. It's powered by a single coin cell battery, which will
