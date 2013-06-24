@@ -6,6 +6,8 @@ comments: true
 categories: reload
 ---
 
+Re:load 2 is now available for preorder! See <a href="http://www.arachnidlabs.com/blog/2013/06/09/re-load-2-now-available-for-preorder/">this post</a> for details.
+
 <a href="https://www.tindie.com/products/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/">Re:load</a>, Arachnid Labs' DC dummy load project, has been hugely - and somewhat unexpectedly - popular. When I first listed it, I expected to get 10, maybe even 20 preorders; instead there were over 100. Since then, it's continued to sell well, and we're now nearly out of kits - the regular Re:load just sold out, and stock for Epic Re:loads is almost as scarce.
 
 Clearly the time for a new run has arrived, and what better time to make some improvements? The basic premise and design of the Re:load has proven to be fundamentally sound, but there's always a few improvements that can be made. I've taken the best suggestions and ideas from the community along with a few of my own, and put them together when designing version 2.
@@ -27,6 +29,7 @@ Also new is a solder jumper for self-power. It's bridged by default, meaning Re:
 I've saved the best for last. The Re:load's previous LDO regulator, used to power the opamp and related circuitry, has been replaced with the [LM2936](http://www.ti.com/lit/ds/symlink/lm2936.pdf). This regulator has some fantastic features that really enhance the Re:load. It's got built in protection against being reverse biased, so we can drop the schottky diode that was required to protect the regulator. In turn, this means you can now use Re:load at full power with voltages barely over 3 volts with full reverse bias protection, where Re:load v1 only went down to 4 volts before the current limit started decreasing. At the other end of the scale, the LM2936 tolerates input voltages up to 40 volts, up from 30.
 
 So in short:
+
  - Mounting holes and improved options for mounting the components on the Re:load for your custom case
  - Increased voltage range, from 3.1 volts to 40 volts, with full reverse bias protection
  - Option to power the Re:load from an external supply to support voltages from 0 to 60 volts
