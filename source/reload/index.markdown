@@ -7,6 +7,8 @@ sharing: true
 footer: true
 ---
 
+This page is about Re:load v1. You're probably looking for [the Re:load 2 page](/reload-2/)
+
 Re:load is an adjustable constant-current load with several key properties:
 
  - Cheap. $15 for the 0-3A version!
