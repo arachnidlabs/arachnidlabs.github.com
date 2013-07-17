@@ -18,3 +18,7 @@ can even use it as an interactive display by updating it live!
 Minimatrix is [available now on tindie](https://tindie.com/shops/arachnidlabs/minimatrix/)! It's $10 for a kit, or $12.50 with a remote control included.
 
 For way more technical details about minimatrix, see [this post](http://www.arachnidlabs.com/blog/2013/04/05/inside-minimatrix/).
+
+Assembly instructions can be found [here](instructions.html).
+
+An owner's / usage manual can be found [here](manual.html).
