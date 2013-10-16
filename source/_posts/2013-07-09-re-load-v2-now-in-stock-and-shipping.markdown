@@ -16,4 +16,4 @@ Re:load v2 is now in stock and shipping! The price is the same as ever, but v2 h
  - Configurable potentiometer orientation, for more flexible enclosure options.
  - Configurable FET placement, for more flexible enclosure options.
 
-Get yours [here](https://www.tindie.com/products/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/), or [here](https://www.tindie.com/products/arachnidlabs/epic-reload-the-simple-robust-powerful-adjustable-dummy-load/) for the Epic.
+Get yours [here](https://www.tindie.com/products/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/)!
