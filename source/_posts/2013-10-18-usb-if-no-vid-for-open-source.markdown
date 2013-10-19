@@ -55,3 +55,14 @@ A few hours later, I got a response:
 I'll leave it to you to judge if that seems proportional. Regardless, the message is clear: No VIDs for you.
 
 If anyone knows what the USB-IF's VID/PID process for hobbyists is, I'd like to hear it. I'll ask them for details and update this post if I receive one.
+
+Update: USB-IF's response about the 'hobbyist process':
+
+> Hi Nick,
+>  
+> We do have a vendor ID number designated for prototype products. This vendor ID number may not be used for a production product. Anybody who has such a need may contact us directly and we will provide them with the proto VID once they confirm that will not be making production products to be distributed and/or sold in the marketplace.
+> 
+> Best regards,
+> Traci
+
+Interesting to know - I'd certainly never heard that this was an option - but it doesn't seem to be a practical option for those of us who sell our gear in small quantities, but it might work if you want to publish your design as OSHW for other people to build themselves.
