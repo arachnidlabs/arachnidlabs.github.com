@@ -50,6 +50,6 @@ After a dab of thermal paste, the heatsinks perform rather well too. The smaller
 
 So what would you do with a re:load? You could use it as I am - to test a power supply. Hook it up to a constant voltage supply to turn it into a constant current supply for electroplating, to test out a high power LED, or for other purposes. Or hook it up in winter for a bit of extra heat.
 
-If you're interested in a re:load to call your own, they're available as kits on Tindie. Get the regular (3A, 12W) version [here](https://tindie.com/shops/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/), or the Epic Reload (6A, 20W) [here](https://tindie.com/shops/arachnidlabs/epic-reload-the-simple-robust-powerful-adjustable-dummy-load/).
+If you're interested in a re:load to call your own, they're [available as kits on Tindie](https://tindie.com/shops/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/).
 
 Naturally, the whole project is OSHW. Get the complete schematics to build your own [here](https://github.com/arachnidlabs/reload).
