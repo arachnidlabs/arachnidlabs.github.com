@@ -121,4 +121,4 @@ I'd very much like to see contributions from others to the minimatrix firmware. 
 Of course, Minimatrix is open source hardware, and the firmware is open source too. Check it out in [the github repository](http://github.com/arachnidlabs/minimatrix/).
 
 # Get one
-I'm currently running a [fundraiser for minimatrix on Tindie](https://tindie.com/shops/arachnidlabs/minimatrix/), and you can get one for just $12.50 with an IR remote, or $10 without. The LED matrix manufacturer has a high minimum order quantity, so I'm hoping there's enough interest to justify doing a run of them.
+I'm currently running a [fundraiser for minimatrix on Tindie](https://tindie.com/stores/arachnidlabs/minimatrix/), and you can get one for just $12.50 with an IR remote, or $10 without. The LED matrix manufacturer has a high minimum order quantity, so I'm hoping there's enough interest to justify doing a run of them.

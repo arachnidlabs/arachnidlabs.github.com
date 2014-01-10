@@ -6,7 +6,7 @@ comments: true
 categories: reload
 ---
 
-The response to the Re:load has been nothing short of astonishing. 60 orders [on Tindie](https://tindie.com/shops/arachnidlabs/epic-reload-the-simple-robust-powerful-adjustable-dummy-load/) in less than 24 hours! I'm really looking forward to getting them out to people, and to seeing what they do with them.
+The response to the Re:load has been nothing short of astonishing. 60 orders [on Tindie](https://tindie.com/stores/arachnidlabs/epic-reload-the-simple-robust-powerful-adjustable-dummy-load/) in less than 24 hours! I'm really looking forward to getting them out to people, and to seeing what they do with them.
 
 I've spent the evening tweaking the PCB a bit for the production run. No major changes, but I've swapped parts around a bit to move the potentiometer further away from the heatsink. I also reversed the potentiometer - it's currently configured the opposite to the conventional way, so counterclockwise is up and clockwise is down. That'll be fixed in the production units.
 
