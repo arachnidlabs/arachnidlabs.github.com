@@ -16,11 +16,39 @@
     <h2 id="subtitle">{{ site.subtitle }}</h2>
   </li>
 {% endif %}
-  <li class="link">
-    <a href="/loki/">Loki</a>
-  </li>
-  <li class="link">
-    <a href="/reload-2/">Re:load</a>
+  <li>Products
+    <ul class="submenu">
+      <li class="link">
+        <a href="/reload-2/">Re:load</a>
+        {% if page.url contains "/reload-2/" %}
+          <ul class="submenu">
+            <li class="link"><a href="instructions.html">Instructions</a></li>
+            <li class="link"><a href="https://www.tindie.com/products/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/">Buy now</a></li>
+          </ul>
+        {% endif %}
+      </li>
+      <li class="link">
+        <a href="/minimatrix/">Minimatrix</a>
+        {% if page.url contains "/minimatrix/" %}
+          <ul class="submenu">
+            <li class="link"><a href="instructions.html">Assembly</a></li>
+            <li class="link"><a href="manual.html">Usage</a></li>
+            <li class="link"><a href="https://www.tindie.com/products/arachnidlabs/minimatrix/">Buy now</a></li>
+          </ul>
+        {% endif %}
+      </li>
+      <li class="link">
+        <a href="/labs-cards/">Trading Cards</a>
+        {% if page.url contains "/labs-cards/" %}
+          <ul class="submenu">
+            <li class="link"><a href="https://www.tindie.com/products/arachnidlabs/circuit-patterns-trading-cards-full-deck/">Buy now</a></li>
+          </ul>
+        {% endif %}
+      </li>
+      <li class="link">
+        <a href="/loki/">Loki</a>
+      </li>
+    </ul>
   </li>
   <li class="link">
     <a href="/about/">about</a>

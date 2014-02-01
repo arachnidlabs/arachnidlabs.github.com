@@ -68,8 +68,8 @@ ul#menu a {
   line-height: 14px;
   z-index: 999;
   padding: 7px;
-  padding-left: 33px;
   padding-right: 12px;
+  padding-left: 33px;
   margin-left: -15px;
   font-weight: 600;
   position: relative;
@@ -178,13 +178,13 @@ header#sidebar h2#subtitle {
 }
 
 // Short screen
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 950px) {
   #sidebar {
     position: absolute;
   }
 
   #octopress_linkback {
-    top: 700px;
+    top: 1000px;
     position: absolute;
   }
 }
