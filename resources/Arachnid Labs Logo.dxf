@@ -49,6 +49,10 @@ $MEASUREMENT
  70
 1
   9
+$CLAYER
+  8
+Logo
+  9
 $DIMEXO
  40
 0.625
@@ -926,6 +930,8 @@ AcDbLayerTableRecord
 0
  62
 7
+420
+16777215
   6
 CONTINUOUS
 390
@@ -944,6 +950,8 @@ Logo
 0
  62
 7
+420
+16777215
   6
 CONTINUOUS
 390
@@ -962,6 +970,8 @@ Beaker
 0
  62
 7
+420
+16777215
   6
 CONTINUOUS
 390
