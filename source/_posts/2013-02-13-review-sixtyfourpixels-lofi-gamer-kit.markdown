@@ -6,7 +6,7 @@ comments: true
 categories: reviews
 ---
 
-Recently, on Tindie's first seller's hangout, I purchased a kit I'd had my eye on: The [SixtyFourPixels LoFi Gamer Kit](https://tindie.com/stores/hotchk155/sixtyfourpixels-lo-fi-gamer-kit/) by Tindie seller Hotchk155. It bills itself as "based around an 8x8 LED matrix which can display in glorious red/green and orange! Sound is provided by a piezo beeper for a truly retro, minimalist gaming experience", and it looked like it would be fun to build and play with.
+Recently, on Tindie's first seller's hangout, I purchased a kit I'd had my eye on: The [SixtyFourPixels LoFi Gamer Kit](https://tindie.com/products/hotchk155/sixtyfourpixels-lo-fi-gamer-kit/) by Tindie seller Hotchk155. It bills itself as "based around an 8x8 LED matrix which can display in glorious red/green and orange! Sound is provided by a piezo beeper for a truly retro, minimalist gaming experience", and it looked like it would be fun to build and play with.
 
 ## Postage and packaging
 
@@ -64,4 +64,4 @@ This is an exceptionally well thought out, tidily presented, and excellently exe
 
 I think this would be an excellent kit for teaching kids soldering and programming; it's also good fun for anyone who likes to build kits, play with microcontrollers, or if you just want something novel. I daresay it would make a decent development board for a few non-game purposes too, potentially.
 
-Highly recommended. Go and [buy one](https://tindie.com/shops/hotchk155/sixtyfourpixels-lo-fi-gamer-kit/)!
+Highly recommended. Go and [buy one](https://tindie.com/products/hotchk155/sixtyfourpixels-lo-fi-gamer-kit/)!
