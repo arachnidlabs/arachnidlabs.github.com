@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arachnid labs is going to Shenzhen\!"
+title: "Arachnid labs is going to Shenzhen!"
 date: 2014-04-04 13:55
 comments: true
 categories: shenzhen
