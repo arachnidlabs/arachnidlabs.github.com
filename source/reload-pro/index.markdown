@@ -6,7 +6,7 @@ comments: true
 sharing: true
 footer: true
 ---
-**The Re:load Pro is currently on Kickstarter! Back it [here!]().**
+**The Re:load Pro is currently on Kickstarter! Back it [here!](https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load).**
 
 <img src="rlpro-side.jpg" width="500">
 
