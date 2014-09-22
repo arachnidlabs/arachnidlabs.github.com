@@ -6,7 +6,7 @@ comments: true
 sharing: true
 footer: true
 ---
-**The Re:load Pro is currently available for preorder on Tindie! [Get yours here](https://www.tindie.com/products/arachnidlabs/reload-pro/)!**
+**The Re:load Pro is currently available on Tindie! [Get yours here](https://www.tindie.com/products/arachnidlabs/reload-pro/)!**
 
 <img src="rlpro-side.jpg" width="500">
 
