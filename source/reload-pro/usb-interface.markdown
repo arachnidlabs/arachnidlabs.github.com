@@ -8,7 +8,8 @@ footer: true
 ---
 The Re:load Pro features a USB interface with serial port emulation (CDC), which
 supports a straightforward text-based protocol for controlling and monitoring
-the Re:load Pro and the attached test device.
+the Re:load Pro and the attached test device. The Re:load Pro's serial interface
+operates at 115200 baud 8/n/1.
 
 Both commands and responses are line-based. Responses from the Re:load Pro are
 terminated with "\r\n", and commands to the Re:load Pro need only be terminated
