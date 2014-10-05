@@ -30,11 +30,13 @@ Enters bootloader/firmware upgrade mode. Emits an 'ok' response, then enters
 bootloader mode. Any further serial communication will be received by the
 bootloader.
 
-## set I
+## set [I]
 Sets the current setpoint to I, expressed in milliamps. Responds with a 'set'
 response with the new current setpoint. This may differ from the provided
 setpoint if the provided setpoint was less than 0 or greater than the maximum
 supported current.
+
+If I is not provided, reports the current setpoint without altering it.
 
 ## mode MODE
 Sets operating mode. Currently only 'cc' for constant current mode is supported.
@@ -71,13 +73,24 @@ Re:load Pro. Responds with 'ok'.
 Calibrates the ADC's current gain. CURRENT should be the current across the
 Re:load Pro. Responds with 'ok'.
 
-### cal d
+### cal d CURRENT
 Performs automatic DAC opamp offset trim, offset, and gain calibration based
-on the calibrated output of the ADC. Responds with 'ok'.
+on the calibrated output of the ADC. Responds with 'ok'. CURRENT is the maximum
+test current level to use in calibration.
+
+From v1.6: No longer performs opamp offset trim calibration; this is now done
+with 'cal t' or manually with 'cal O'
 
 ### cal O [OFFSET]
 Without an argument, returns the current opamp offset trim value, between 0 and
 63 with a 'cal O' response. With an argument, sets the opamp offset trim.
+
+### cal t CURRENT
+Performs automatic opamp offset trim calibration. Responds with 'ok'. CURRENT
+is the maximum test current level to use in calibration.
+
+## version
+From v1.6: Returns the current firmware version number in a 'version' response.
 
 # Response reference
 
@@ -113,3 +126,7 @@ normal operation.
 ## undervolt
 Sent unsolicited when the Re:load Pro detects an undervoltage condition. Issue a
 'reset' command to set the current setpoint to 0 and resume normal operation.
+
+## version
+Returned in response to a 'version' command. Reports the current firmware version
+in dotted-decimal format.
