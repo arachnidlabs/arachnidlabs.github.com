@@ -7,11 +7,8 @@ sharing: true
 footer: true
 ---
 
-The Re:load Pro fan kit is an addon for the Re:load Pro that adds two digitally
-controlled fans, which increase the Re:load Pro's sustained power dissipation
-from 25 watts to approximately 50 watts.
-
-<img src="/images/fan-kit-back.jpeg" width="600">
+<div data-celery="54587e0093465506007addfc" data-celery-type="embed" data-celery-version="v2" style="width:600px">Checkout</div>
+<script async type="text/javascript" src="https://www.trycelery.com/js/celery.js"></script>
 
 Images are of a late prototype; the production units will have proper standoffs
 and an improved PCB design.
@@ -45,6 +42,3 @@ January next year. Preorder now to get 20% off the regular retail price of £25.
 
 Preorders will close, cards will be billed, and production will begin on the 7th
 of December.
-
-<div data-celery="54587e0093465506007addfc" data-celery-type="embed" data-celery-version="v2" style="width:600px">Checkout</div>
-<script async type="text/javascript" src="https://www.trycelery.com/js/celery.js"></script>
