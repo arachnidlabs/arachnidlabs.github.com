@@ -15,7 +15,7 @@ and an improved PCB design.
 
 The kit includes a populated PCB with dual smart fan controllers, and all
 parts and mounting hardware required to set it up on your Re:load Pro. Fan speed
-is automatically managed to minimimse fan noise and wasted power through a
+is automatically managed to minimise fan noise and wasted power through a
 thermocouple that detects heatsink temperature and adjusts fan speed accordingly.
 The fan controller can also detect and restart stalled fans.
 
