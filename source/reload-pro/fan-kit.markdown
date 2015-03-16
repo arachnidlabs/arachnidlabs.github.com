@@ -11,10 +11,11 @@ footer: true
 
 This is a fan kit for the Re:load Pro, containing everything you need to boost your Re:load Pro's sustained power limit from 25 watts to 50 watts! It includes a fan controller PCB with dual smart fan controllers, fans, and mounting hardware to attach it to your Re:load Pro.
 
-The fan kit is [available for preorder on Tindie](https://www.tindie.com/products/arachnidlabs/reload-pro-fan-kit/). Fan kits are expected to ship in January next year.
+Assembly instructions for the fan kit can be found <a href="fan-kit-assembly.html">here</a>.
 
-Images are of a late prototype; the production units will have proper standoffs
-and an improved PCB design.
+The fan kit is [available on Tindie](https://www.tindie.com/products/arachnidlabs/reload-pro-fan-kit/).
+
+Images are of a late prototype; the production units will have proper standoffs and an improved PCB design.
 
 The kit includes a populated PCB with dual smart fan controllers, and all
 parts and mounting hardware required to set it up on your Re:load Pro. Fan speed
