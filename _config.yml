@@ -16,9 +16,6 @@ encoding: utf-8
 # Google Analytics
 trackingcode: "UA-84449-7" #Please add your tracking Code Eg: UA-XXXXXXXX-X
 
-# Blog animation
-animation: "fadeInUp"
-
 # Build settings
 markdown: kramdown
 destination: _deploy
