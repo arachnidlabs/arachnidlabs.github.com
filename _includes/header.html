@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="{{ site.description }}">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title>{{ site.name }}</title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="{{ site.github }}"><i class="fa fa-github"></i></a></li>
+					<li><a href="{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href="{{ site.youtube }}"><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="{{ site.googleplus }}"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1>{{ site.name }}</h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						{% for page in site.pages %}
+							{% assign filename = page.url|split:'/'|last %}
+							{% assign length = page.url|split:'/'|size %}
+							{% if filename == 'index.html' and length == 3 and page.toc %}
+								<li><a href="{{page.url}}">{{page.title}}</a></li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+

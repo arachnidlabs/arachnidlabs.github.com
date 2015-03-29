@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="Makers of fine electronics since 2013.">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="Arachnid Labs" href="http://www.arachnidlabs.com/atom.xml" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1></h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/about/index.html">About</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/labs-cards/index.html">Circuit pattern trading cards</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-2/index.html">Re:load 2</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-pro/index.html">Re:load Pro</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/minishift/index.html">Minishift</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+
+
+
+<div class="page-side clearfix">
+	<div class="main">
+		<h1>Minishift usage</h1>
+		<h2 id="installation">Installation</h2>
+
+<p>To control the minishift from your computer, you’ll first have to install the minishift library. Make sure you have python 2.7 and <a href="http://pip.readthedocs.org/en/latest/installing.html">pip installed</a>, then install the minishift library:</p>
+
+<pre><code>$ pip install minishift-python
+</code></pre>
+
+<p>or, to install from source:</p>
+
+<pre><code>$ git clone https://github.com/arachnidlabs/minishift-python.git
+$ cd minishift-python
+$ sudo setup.py install
+</code></pre>
+
+<p>The minishift library should work on Linux, OSX, and Windows.</p>
+
+<h2 id="usage---http-interface">Usage - HTTP interface</h2>
+
+<p>The minishift module ships with a daemon that implements a simple HTTP API for controlling the minishift. You can start the daemon like so:</p>
+
+<pre><code>$ python -m minishift.minishiftd width
+</code></pre>
+
+<p>where <code>width</code> is the number of horizontal pixels in your chain of minishifts - for example, 32 in a 4-module minishift array.</p>
+
+<p>Optionally, you can run minishiftd as a background daemon:</p>
+
+<pre><code>$ python -m minishift.minishiftd -d width
+</code></pre>
+
+<p>By default minishiftd listens on port 8000; you can configure this with the -p argument:</p>
+
+<pre><code>$ python -m minishift.minishiftd -p 8001 width
+</code></pre>
+
+<p>Once the daemon is running, you can set the text by making POST or GET requests to the <code>/set/</code> endpoint:</p>
+
+<pre><code>$ curl -G http://localhost:8000/set --data-urlencode "text=Test!"
+</code></pre>
+
+<p>To display scrolling text, supply the <code>interval</code> parameter, which specifies the number of seconds to scroll one pixel. You can also supply the optional <code>times</code> parameter, to display the message a fixed number of times before going blank:</p>
+
+<pre><code>$ curl -G http://localhost:8000/set --data-urlencode "text=To be or not to be, that is the question" -d interval=0.05 -d times=2
+</code></pre>
+
+<h2 id="usage---python-library">Usage - Python library</h2>
+
+<p>The minishift module also provides a Python library. More complete documentation is <a href="https://github.com/arachnidlabs/minishift-python/blob/master/README.md">in the readme</a>, but basic usage looks something like this:</p>
+
+<pre><code>&gt;&gt;&gt; import minishift
+&gt;&gt;&gt; vid, pid, width = 0x04d8, 0xf517, 32
+&gt;&gt;&gt; ms = minishift.Minishift(minishift.MCP2210Interface(vid, pid), width)
+&gt;&gt;&gt; ms.canvas.write_text(0, "Test!")
+&gt;&gt;&gt; ms.update()
+</code></pre>
+
+	</div>
+	<div class="sidebar">
+	<div class="side-sect">
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<h1><a href="/minishift/index.html">Minishift</a></h1>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		<ul>
+			
+				
+					
+						<li><a href="/minishift/assembly.html">Minishift assembly</a></li>
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						<li><a href="/minishift/usage.html">Minishift usage</a></li>
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</ul>
+	</div>
+</div>
+</div>
+
+
+		</div>
+
+		<footer class="clearfix">
+			<p>2014 &copy Arachnid Labs | Theme designed by <a href="http://www.themeforest.net/user/uziiuzair">Uzair Hayat</a></p>
+
+			<ul class="social">
+				<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+				<!--<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+				<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+
+		</footer>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-84449-7']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</body>
+</html>

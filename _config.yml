@@ -1,0 +1,24 @@
+# Site settings
+title: Arachnid Labs
+email: nick@arachnidlabs.com
+description: "Makers of fine electronics since 2013."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.arachnidlabs.com" # the base hostname & protocol for your site
+twitter: https://twitter.com/arachnidlabs
+github:  https://github.com/arachnidlabs
+googleplus: https://plus.google.com/+Arachnidlabs/
+permalink: /blog/:year/:month/:day/:title/
+excerpt_separator: <!-- more -->
+paginate: 10
+paginate_path: "/blog/page/:num"
+encoding: utf-8
+
+# Google Analytics
+trackingcode: "UA-84449-7" #Please add your tracking Code Eg: UA-XXXXXXXX-X
+
+# Blog animation
+animation: "fadeInUp"
+
+# Build settings
+markdown: kramdown
+destination: _deploy

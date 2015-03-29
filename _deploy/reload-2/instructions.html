@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="Makers of fine electronics since 2013.">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="Arachnid Labs" href="http://www.arachnidlabs.com/atom.xml" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1></h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/about/index.html">About</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/labs-cards/index.html">Circuit pattern trading cards</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-2/index.html">Re:load 2</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-pro/index.html">Re:load Pro</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/minishift/index.html">Minishift</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+
+
+
+<div class="page-side clearfix">
+	<div class="main">
+		<h1>Re:load 2 assembly instructions</h1>
+		<h2 id="parts-list">Parts list</h2>
+
+<p>The parts in your kit will depend on whether you have a regular Re:load or the “Epic” version. The list below shows the parts for both kits.</p>
+
+<table>
+  <thead>
+    <tr><th>Designation</th><th>Re:load Part</th><th>Epic Re:load part</th><th>Quantity</th></tr>
+  </thead>
+  <tr><th></th><td colspan="2">Re:load PCB</td><td>1</td></tr>
+  <tr><th>Q1</th><td>BTS117 or BTS141 TO-220 MOSFET</td><td>BTS141 TO-220 MOSFET</td><td>1</td></tr>
+  <tr><th></th><td>12 watt heatsink</td><td>20 watt heatsink</td><td>1</td></tr>
+  <tr><th>R6</th><td colspan="2">10k ohm potentiometer</td><td>1</td></tr>
+  <tr><th>JP1</th><td colspan="2">1 pair binding posts</td><td>1</td></tr>
+  <tr><th></th><td colspan="2">Syringe of thermal paste</td><td>1</td></tr>
+  <tr><th></th><td colspan="2">M3 6mm machine screw</td><td>1</td></tr>
+  <tr><th></th><td colspan="2">M3 nut</td><td>1</td></tr>
+</table>
+
+<h2 id="assembly-instructions">Assembly instructions</h2>
+
+<p>Re:load 2 comes with all surface mount parts already soldered, leaving only a few thru-hole parts to do to complete your kit. The contents of your kit should look something like this:</p>
+
+<p><img src="parts.jpg" height="300" /></p>
+
+<p>First, solder the potentiometer. It will take some wiggling to get the larger mounting pins through the holes. Normal orientation is with the potentiometer on the top side of the board, but if you’re using an enclosure that requires it, you can mount it on the bottom - just unsolder SJ1 and SJ2 and resolder them with the opposite pairs of pads connected.</p>
+
+<p><img src="step1.jpg" width="300" /></p>
+
+<p>Now for the transistor and the heatsink. It’s important to attach the transistor to the heatsink before adding either to the PCB.</p>
+
+<p>First, take out the syringe of thermal paste. Apply it to the back of the transistor. You don’t need a thick coating, just enough to cover the whole part.</p>
+
+<p>Then, line the transistor up against the heatsink so that the hole in the transistor is aligned with the middle hole on the heatsink. The legs should stick down so that the thicker part of the legs are entirely above the bottom of the heatsink. Otherwise, the transistor will not fit neatly on the board. Insert the provided screw and nut, and tighten finger-tight.</p>
+
+<p><img src="step2.jpg" width="300" /></p>
+
+<p>Now, insert the heatsink and the transistor into their holes on the PCB. When mounted on the standard heatsink, the FET goes into the set of holes closer to the front of the board. Some care will be needed to line everything up neatly. Once you have, solder the transistor and heatsink to the board. You will need a lot of heat and a fair bit of solder to solder the heatsink pins!</p>
+
+<p><img src="step3.jpg" width="300" /></p>
+
+<p>Finally, attach the screw terminals. Undo the nuts and throw away the solder lug, then put the terminals through the holes on the PCB and tighten the nuts. We recommend one nut above the PCB and one below.</p>
+
+<p><img src="step4.jpg" width="300" /></p>
+
+<p>Congratulations! You’ve built your Re:load! Now read on to calibrate and use it.</p>
+
+<h2 id="calibration">Calibration</h2>
+
+<p>The Re:load has two test pads near the front for reading off the instantaneous current. Because all components have some natural variation, calibration is required for this value to be accurate. The calibration procedure is simple, but if you don’t care about the accuracy of the current measurement, you can skip this.</p>
+
+<ol>
+  <li>Attach the Re:load to a current source such as a bench supply, in series with a multimeter set to measure current. Take care to get the polarity on everything right!</li>
+  <li>Turn on the power supply</li>
+  <li>Adjust the Re:load’s potentiometer until the multimeter reads exactly 1 amp</li>
+  <li>Remove the multimeter from the circuit and reconnect the Re:load. Configure the multimeter for voltage measurement.</li>
+  <li>Attach the multimeter across the current sense test pads. Adjust the trimpot on the bottom of the board (not the big potentiometer!) until the multimeter reads exactly 0.1 volts.</li>
+</ol>
+
+<h2 id="use">Use</h2>
+
+<p>Using the Re:load is simple - if you followed the calibration procedure, you’ve already done it. Hook the Re:load up to a power source of at least 3.3 and no more than 40 volts. Re:load will attempt to draw a fixed amount of current; adjusting the potentiometer adjusts Re:load’s current draw.</p>
+
+<p>In addition to current and voltage limits, Re:load has a maximum capacity to absorb energy. For the regular Re:load this is approximately 12 watts; the larger heatsink on the Epic increases this to approximately 20 watts. These values will vary depending on ambient temperature and airflow. Re:load can be run at powers significantly higher than these values, but it will eventually overheat, at which point the thermal cutoff in the transistor will activate, and it will stop drawing current until it is disconnected from the circuit and reconnected.</p>
+
+<p>Re:load is very robust. The onboard regulator is protected against reverse polarity, but the transistor contains a body diode that will conduct current if connected backwards. As a result, Re:load will draw a lot of current when connected in reverse. This causes no problems for Re:load in the short term, but it’s possible it may overload your supply! In theory, if left connected in reverse for long enough, the temperature could rise sufficiently to damage the transistor, since the thermal cutoff won’t activate when reverse biased. So don’t do that. Re:load is also not rated for over 40 volts; above that the voltage regulator for the electronics may fail, causing the opamp to fail as well.</p>
+
+<p>Re:load will operate below even 3.3 volts, but it will no longer operate as a constant current device, and its maximum current diminishes rapidly, down to nearly zero at approximately 2 volts.</p>
+
+<p>You can also run Re:load from an external power supply. Simply unsolder the jumper marked “self-power”, and attach a power source of between 3.3 and 40 volts to the pads marked “VIN” and “-“. When running from an external supply, Re:load will operate over a range from 0 to 60 volts.</p>
+
+<h2 id="reload-hacks">Re:load hacks</h2>
+
+<p>Have you done something cool and unusual with Re:load? I’d love to hear about it! Please <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#105;&#099;&#107;&#064;&#097;&#114;&#097;&#099;&#104;&#110;&#105;&#100;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;">email me</a> and let me know!</p>
+
+	</div>
+	<div class="sidebar">
+	<div class="side-sect">
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<h1><a href="/reload-2/index.html">Re:load 2</a></h1>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						<li><a href="/reload-2/instructions.html">Re:load 2 assembly instructions</a></li>
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</ul>
+	</div>
+</div>
+</div>
+
+
+		</div>
+
+		<footer class="clearfix">
+			<p>2014 &copy Arachnid Labs | Theme designed by <a href="http://www.themeforest.net/user/uziiuzair">Uzair Hayat</a></p>
+
+			<ul class="social">
+				<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+				<!--<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+				<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+
+		</footer>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-84449-7']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</body>
+</html>

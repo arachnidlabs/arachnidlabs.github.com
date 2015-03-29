@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arachnid Labs</title>
+    <description>Makers of fine electronics since 2013.</description>
+    <link>http://www.arachnidlabs.com/</link>
+    <atom:link href="http://www.arachnidlabs.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 Mar 2015 20:42:32 +0100</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 20:42:32 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Tsunami signal generator up on Kickstarter</title>
+        <description>&lt;p&gt;We’ve just launched our next product, the Tsunami, and it’s &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/tsunami/&quot;&gt;up on Kickstarter&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/tsunami/press/tsunami-1-thumbnail.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Tsunami is a powerful and flexible signal generator built on the Arduino platform. It’s the best way to get started experimenting with analog signals, and a great tool for a huge variety of tasks, too.&lt;/p&gt;
+
+&lt;p&gt;The tsunami takes the versatile processor behind the Arduino Leonardo, and combines it with a Direct Digital Synthesis chip, which makes generating analog signals incredibly straightforward. It also has flexible input and output circuitry, and an easy to use software library, to make working with analog signals as easy as blinking an LED.&lt;/p&gt;
+
+&lt;p&gt;We’re aiming for a £10,000 goal to be able to manufacture the Tsunami, and there’s
+just 21 days to get there. If it sounds like the sort of thing you’d find useful,
+&lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/tsunami/&quot;&gt;go back it now&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Mar 2015 16:22:00 +0000</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2015/03/16/tsunami-signal-generator-up-on-kickstarter/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2015/03/16/tsunami-signal-generator-up-on-kickstarter/</guid>
+        
+        
+        <category>tsunami</category>
+        
+      </item>
+    
+      <item>
+        <title>Re:load Pro Fan Kit now available for preorder</title>
+        <description>&lt;p&gt;You’ve been waiting for it with bated breath, and now it’s here: &lt;a href=&quot;/reload-pro/fan-kit.html&quot;&gt;the Re:load Pro fan kit&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/fan-kit-back.jpeg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ll be accepting earlybird preorders for the next 7 days &lt;a href=&quot;/reload-pro/fan-kit.html&quot;&gt;here&lt;/a&gt; at the limited time price of £20 plus shipping. Once the time’s up, if we have enough preorders to cover the tooling costs, we’ll start manufacturing, with delivery expected in January.&lt;/p&gt;
+
+&lt;p&gt;The fan kit contains everything you need to boost your Re:load Pro’s sustained power limit from 25 watts to 50 watts.&lt;/p&gt;
+
+&lt;p&gt;The kit includes a populated PCB with dual smart fan controllers, and all parts and mounting hardware required to set it up on your Re:load Pro. Fan speed is automatically managed to minimise fan noise and wasted power through a thermocouple that detects heatsink temperature and adjusts fan speed accordingly. The fan controller can also detect and restart stalled fans.&lt;/p&gt;
+
+&lt;p&gt;Under low load conditions, the fans are stationary. As load - and thus temperature - increases, the fans start, gradually ramping up to full speed as needed to maintain the temperature.&lt;/p&gt;
+
+&lt;p&gt;Package contents:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fully populated fan kit PCB&lt;/li&gt;
+  &lt;li&gt;Thermocouple Headers for attaching fan kit PCB to Re:load Pro expansion slot&lt;/li&gt;
+  &lt;li&gt;Two 40mm fans&lt;/li&gt;
+  &lt;li&gt;Aluminium mounting plate, standoffs and screws for attaching fans to Re:load Pro&lt;/li&gt;
+  &lt;li&gt;0.9mm hex key for removing the knob from the Re:load Pro front panel during disassembly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’re only running the preorder for a limited time, after which prices will go up to the normal rate of £25, so if you know anyone with a Re:load Pro who might like one, now’s the time - &lt;a href=&quot;/reload-pro/fan-kit.html&quot;&gt;preorder one now&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Nov 2014 19:10:00 +0000</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/11/24/re-load-pro-fan-kit-now-available-for-preorder/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/11/24/re-load-pro-fan-kit-now-available-for-preorder/</guid>
+        
+        
+        <category>reload-pro</category>
+        
+      </item>
+    
+      <item>
+        <title>See us at Elephant and Castle Mini Maker faire</title>
+        <description>&lt;p&gt;We’re going to be at &lt;a href=&quot;http://makerfaireelephantandcastle.com/&quot;&gt;Elephant &amp;amp; Castle Mini Maker Faire&lt;/a&gt; tomorrow! Come see us at our booth, where we’ll be demoing and selling the minishift, making Robot Buttons, and showing off a top secret new project!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Nov 2014 18:50:00 +0000</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/11/14/see-us-at-elephant-and-castle-mini-maker-faire/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/11/14/see-us-at-elephant-and-castle-mini-maker-faire/</guid>
+        
+        
+        <category>maker-faire</category>
+        
+      </item>
+    
+      <item>
+        <title>Re:load Pro in stock and shipping</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://www.tindie.com/stores/arachnidlabs/reload-pro/&quot;&gt;Re:load Pro&lt;/a&gt; is
+finally in stock and shipping! All Kickstarter orders have shipped, as have all
+Tindie preorders, and we’re now fully in stock and shipping immediately from
+two locations!&lt;/p&gt;
+
+&lt;p&gt;If you’ve been waiting to pick one up, there’s never been a better time than now.
+&lt;a href=&quot;https://www.tindie.com/stores/arachnidlabs/reload-pro/&quot;&gt;Get yours here!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Oct 2014 07:44:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/10/02/reload-pro-in-stock-and-shipping/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/10/02/reload-pro-in-stock-and-shipping/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Introducing Arachnid Labs new, faster shipping</title>
+        <description>&lt;p&gt;Since day one of Arachnid Labs’ existence, we’ve done all our shipping ourselves -
+strictly a skunkworks operation. We have a Royal Mail commercial account, which
+makes sending mail in volume easier, but all the stock’s in a dedicated cupboard
+under the stairs, and everything gets packed and labelled on the kitchen table.
+At least, up until now.&lt;/p&gt;
+
+&lt;p&gt;The needs of the &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;Re:load Pro kickstarter&lt;/a&gt;
+have precipitated a change to using a fulfillment company for shipping, and as of
+now we’re saying goodbye to the stock cupboard. Going forward, our products - with
+a couple of exceptions - will be shipping from fulfillment warehouses in the US
+and the UK via &lt;a href=&quot;http://www.shipwire.com/&quot;&gt;Shipwire&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This has several benefits. Most significantly, packages will ship sooner; shipping
+orders ourselves has meant we can’t go down to the post office every day, and that’s
+sometimes led to delays; with Shipwire orders will typically ship the business day
+after the order is placed.&lt;/p&gt;
+
+&lt;p&gt;Packages will also arrive faster for a lot of people. With stock at warehouses
+near London and Los Angeles, delivery times will go down for anyone who’s nearer
+the US than the UK, which is about 2/3rds of our orders.&lt;/p&gt;
+
+&lt;p&gt;More of our packages will offer tracking. Royal Mail first class doesn’t offer
+tracking, so we typically haven’t offered it in the past, but of Shipwire’s
+services, even many of the economy services offer tracking.&lt;/p&gt;
+
+&lt;p&gt;There’ll be more shipping options to choose from. Most regions will have economy,
+standard and premium rates available.&lt;/p&gt;
+
+&lt;p&gt;There’s only one downside to all of this: for some people, shipping rates will
+increase, particularly for people in regions like Asia and Oceania. I’m really
+sorry about that - but it’s an unavoidable consequence of the shipping providers
+Shipwire offers. I’ve done my best to keep the increases as small as possible.&lt;/p&gt;
+
+&lt;p&gt;To celebrate the new faster shipping, we’re offering 15% off all affected products
+for the next week using the coupon code A8A346A. You can apply this to the
+&lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/circuit-patterns-trading-cards-full-deck/&quot;&gt;Circuit Patterns Trading Cards&lt;/a&gt;, the &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/reload-the-simple-robust-affordable-dummy-load/&quot;&gt;Re:load 2&lt;/a&gt;, and preorders for the &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/reload-pro/&quot;&gt;Re:load Pro&lt;/a&gt;, which will be shipping in about a week!&lt;/p&gt;
+
+&lt;p&gt;Also, keep an eye out for the Minishift, which will be coming back into stock
+soon; it’s in production right now.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Sep 2014 14:00:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/09/06/introducing-arachnid-labs-new/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/09/06/introducing-arachnid-labs-new/</guid>
+        
+        
+        <category>shipping</category>
+        
+      </item>
+    
+      <item>
+        <title>Re:load Pro status update</title>
+        <description>&lt;p&gt;Wow, it’s been a while since I updated here with Re:load Pro news!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load/&quot;&gt;The Kickstarter&lt;/a&gt;, as you probably know by now, was a huge success, hitting over 400% of its original goal. I’ve been posting &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load/posts&quot;&gt;regular updates&lt;/a&gt; to the Kickstarter, and that’s the place to go if you want to keep up to date with it.&lt;/p&gt;
+
+&lt;p&gt;We hit a really significant milestone with production today: The first unit rolled off the line at the fab in Texas. Here it is in action:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/ksr/assets/002/158/747/9fe80cd18e2b0284b2454e798e7e09db_large.jpg?1403038820&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next steps entail sending it to me for validation and checking, then producing first the “first off the line” units, then the remainder of the order, for shipping to our loyal backers.&lt;/p&gt;
+
+&lt;p&gt;If you missed out on the Kickstarter, you can still preorder yours &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/reload-pro/&quot;&gt;at Tindie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In other news, our Circuit Patterns Trading Cards, already available &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/circuit-patterns-trading-cards-full-deck/&quot;&gt;on Tindie&lt;/a&gt;, &lt;a href=&quot;http://adafruit.com/products/1474&quot;&gt;from Adafruit&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B00I2VX1GE&quot;&gt;on amazon.co.uk&lt;/a&gt; are now &lt;a href=&quot;http://amzn.com/B00I2VX1GE&quot;&gt;available on amazon.com&lt;/a&gt;, too! This is especially good news for those of you who have Amazon Prime - you can now get them with free shipping on Prime, and excellent rates around the world as well.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Jun 2014 22:13:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/06/17/re-load-pro-status-update/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/06/17/re-load-pro-status-update/</guid>
+        
+        
+        <category>reload-pro</category>
+        
+      </item>
+    
+      <item>
+        <title>Only 48 hours to go on the Re:load Pro Kickstarter!</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;Re:load Pro kickstarter&lt;/a&gt; has been steaming along nicely through the whole campaign, smashing through stretch goals the whole time. Now, there’s only 48 hours left! If you’ve been thinking about getting one, but putting the decision off, now’s the time to commit!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;Get your own Re:load Pro while there’s still time here!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 May 2014 09:27:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/05/03/only-48-hours-to-go-on-the-re-load-pro-kickstarter-slash/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/05/03/only-48-hours-to-go-on-the-re-load-pro-kickstarter-slash/</guid>
+        
+        
+        <category>reload-pro</category>
+        
+        <category>kickstarter</category>
+        
+      </item>
+    
+      <item>
+        <title>Kickstarter progress update</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load/&quot;&gt;Re:load Pro kickstarter&lt;/a&gt; is barreling along! We reached the goal after just 32 hours, and after a boost from &lt;a href=&quot;http://hackaday.com/2014/04/16/reload-pro-an-open-source-active-load/&quot;&gt;an article on Hack a Day&lt;/a&gt;, we’ve now reached £10,000 and unlocked the first stretch goal: an accessory port. Read all about it in the update &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load/posts/813627&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;With 18 days to go, there’s still plenty of time to &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load/&quot;&gt;back the Kickstarter&lt;/a&gt; and get a Re:load Pro for yourself, and plenty of stretch goals still to meet.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Apr 2014 07:44:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/04/17/kickstarter-progress-update/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/04/17/kickstarter-progress-update/</guid>
+        
+        
+        <category>reload-pro</category>
+        
+        <category>kickstarter</category>
+        
+      </item>
+    
+      <item>
+        <title>Custom manufacturing in China</title>
+        <description>&lt;p&gt;One of the primary requirements for the &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;Re:Load Pro&lt;/a&gt; was an enclosure and heatsink. The two need to integrate well - ideally with the heatsink taking the part of one end-panel - and the heatsink needs to be sufficiently large for the heat dissipation requirements of the Re:load Pro. After much searching, I came to the reluctant conclusion that such an enclosure doesn’t presently exist, and that my only option was to get the enclosure, the heatsink, or both custom manufactured.&lt;/p&gt;
+
+&lt;p&gt;I’ve sourced parts from Chinese manufacturers before, including getting parts, such as the &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/8x8-pixel-square-pixel-led-matrix-yellow-green/&quot;&gt;LED matrices&lt;/a&gt; for the &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/minishift/&quot;&gt;Minishift&lt;/a&gt; and &lt;a href=&quot;https://www.tindie.com/products/arachnidlabs/minimatrix/&quot;&gt;Minimatrix&lt;/a&gt; made to order, but sourcing something with high setup costs, such as a custom extrusion, was a new experience.&lt;/p&gt;
+
+&lt;p&gt;Step one was to design a part and generate a suitable manufacturing drawing from which to quote. I took the dimensions of an existing heatsink, along with &lt;a href=&quot;http://www.aavid.com/product-group/extrusions-na/custom&quot;&gt;various design guides&lt;/a&gt; and produced this design:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/heatsink_drawing.png&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I found some suppliers on aliexpress who seemed to specialise in heatsink extrusions, and shopped it around to them. I got quotes back from a number of suppliers, with a wide range of prices. Tooling/mold fees ranged from $500USD to $1,300, while per-unit prices ranged from $1.85 each to $3.50, and they all had minimum orders around 500 pieces. Most were willing to negotiate down on the MOQ in order to get a sale, but some additionally had an additional setup fee if you ordered less than a certain weight of aluminium.&lt;/p&gt;
+
+&lt;p&gt;I ended up picking a supplier towards the lower end of the price range, though not the absolute cheapest, with a tooling cost of $600, and a per-unit cost of $2.30, and authorising them to go ahead and produce the mould. This was an occasion for some paranoia, since unlike the CNC and 3d printing processes we’re all used to being a bit blase with, any screwups here would necessitate a new mould, and another $600 tooling fee.&lt;/p&gt;
+
+&lt;p&gt;The breakdown of the per-unit costs were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$0.85 material cost&lt;/li&gt;
+  &lt;li&gt;$0.09 ‘blanking’ cost&lt;/li&gt;
+  &lt;li&gt;$1 For post-extrusion CNC&lt;/li&gt;
+  &lt;li&gt;$0.17 to anodise each unit black&lt;/li&gt;
+  &lt;li&gt;$0.17 packaging&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tooling took some time: nearly a month, though that was interrupted by Chinese New Year, which extended things somewhat. The tooling fee includes production of 3 sample units, which arrived a week later. I couldn’t be happier with the quality of the extrusion, machining, and finish:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/heatsink_photo.jpg&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are the exact extrusions you’ll get as part of your enclosure if you &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;back the Re:load Pro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Although one data point isn’t a lot to work from, I’ve found the whole experience to be surprisingly straightforward and hassle-free so far, though I’ll report back when I’ve ordered the final extrusions for the production run. A few things to bear in mind when considering ordering custom work from China yourself:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get multiple quotes from different manufacturers. The range in both setup and per-unit costs was enormous across different suppliers.&lt;/li&gt;
+  &lt;li&gt;Ask for photos and drawings of other work they’ve done. I avoided the cheapest supplier because they seemed suspiciously cheap, and didn’t have much evidence of other high quality work.&lt;/li&gt;
+  &lt;li&gt;Ask for a drawing of their own or other evidence they’ve understood your technical drawings correctly and will produce them to spec. The manufacturer I used included a drawing of the extrusion with their quote.&lt;/li&gt;
+  &lt;li&gt;Make sure you get samples to test the production quality, fit and finish before placing a full scale order.&lt;/li&gt;
+  &lt;li&gt;Make sure you fully understand the MOQ and any setup fees before ordering anything.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have you had custom work done in China? What was your experience with it like?&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Apr 2014 19:31:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/04/15/custom-manufacturing-in-china/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/04/15/custom-manufacturing-in-china/</guid>
+        
+        
+        <category>reload-pro</category>
+        
+        <category>china</category>
+        
+      </item>
+    
+      <item>
+        <title>Introducing the Re:load Pro</title>
+        <description>&lt;p&gt;I designed the original Re:load to fill a need of my own, and out of frustration at the lack of any good alternatives available to electronics hackers like myself. It turns out that I’m not the only person who found a lightweight and robust active load a useful tool, and the Re:load’s turned into a popular and well-regarded product.&lt;/p&gt;
+
+&lt;p&gt;The Re:load fills a gap for people needing a simple way to do electrical load testing, but ever since I launched the original Re:load, though, people have asked for a version that’s higher powered and more flexible - a true piece of precision benchtop equipment. That’s why today, I’m launching the Re:load Pro on Kickstarter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/reload-pro/rlpro-side.jpg&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Re:load Pro takes all the advantages of the original Re:load, and improves upon them with a robust benchtop case, a good quality display and UI, an isolated USB interface, and an integrated processor - the &lt;a href=&quot;http://www.cypress.com/psoc4/&quot;&gt;PSoC 4 from Cypress&lt;/a&gt; - that together make it an extremely sophisticated and versatile piece of equipment.&lt;/p&gt;
+
+&lt;p&gt;You can do everything you could with the original Re:load, plus much, much more. The Re:load Pro can handle up to 60 volts, 6 amps, or 25 watts with entirely passive cooling - and a forthcoming fan kit will expand the maximum power significantly. The built in processor lets you set precise current limits and get accurate readouts of current, voltage, power and more, and the isolated USB interface lets you safely control and monitor it over USB.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/reload-pro/rlpro-action.png&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Re:load Pro goes live today &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;on Kickstarter&lt;/a&gt; for £65, or £80 with an accessory kit containing everything you need to get started, and there’s a limited number of early bird units for just £55 with all the accessories. Take a look at &lt;a href=&quot;https://www.kickstarter.com/projects/nickjohnson/re-load-pro-a-dc-active-load&quot;&gt;the project on Kickstarter&lt;/a&gt; to get more details, and to back it!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Apr 2014 07:00:00 +0100</pubDate>
+        <link>http://www.arachnidlabs.com/blog/2014/04/14/introducing-the-re-load-pro/</link>
+        <guid isPermaLink="true">http://www.arachnidlabs.com/blog/2014/04/14/introducing-the-re-load-pro/</guid>
+        
+        
+        <category>reload</category>
+        
+        <category>reload-pro</category>
+        
+        <category>kickstarter</category>
+        
+      </item>
+    
+  </channel>
+</rss>

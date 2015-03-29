@@ -1,0 +1,45 @@
+{% include header.html %}
+
+<div class="posts">
+	{% for post in paginator.posts %}
+
+	<div onclick="window.location.href='{{ post.url }}'" class="mypost wow clearfix {{ site.animation }}">
+	   	<div class="date">
+	   		{{ post.date | date: "<p class='date-top'>%-d</p><p class='bottom-date'>%b %Y</p>" }}
+	   	</div>
+	  	<div class="postcontent">
+	  		<h1>{{post.title}}</h1>
+	    	{% if post.content contains '<!--more-->' %}
+    			{{ post.content | split:'<!--more-->' | first }}
+			{% else %}
+    			{{ post.content }}
+			{% endif %}
+	    	<p class="readmore">
+	      		<a href="{{ post.url }}">Read Post</a>
+	    	</p>
+	  	</div>
+
+	</div>
+
+	{% endfor %}
+</div>
+</div>
+{% if paginator.total_pages > 1 %}
+	<div class="pagination">
+		<div class="innerpagi clearfix">
+		  	{% if paginator.previous_page %}
+		    	<a class="previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previous</a>
+		  	{% else %}
+		    	<span class="previous off">&laquo; Previous</span>
+		  	{% endif %}
+
+		  	{% if paginator.next_page %}
+		    	<a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+		  	{% else %}
+		    	<span class="next off">Next &raquo;</span>
+		  	{% endif %}
+		</div>
+	</div>
+{% endif %}
+
+{% include footer.html %}

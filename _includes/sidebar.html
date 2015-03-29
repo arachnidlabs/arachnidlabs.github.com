@@ -1,0 +1,19 @@
+<div class="sidebar">
+	<div class="side-sect">
+		{% for p in site.pages %}
+			{% if p.section == page.section and p.toc %}
+				<h1><a href="{{p.url}}">{{p.title}}</a></h1>
+			{% endif %}
+		{% endfor %}
+		<ul>
+			{% for p in site.pages %}
+				{% if p.section == page.section %}
+					{% if p.toc %}
+					{% else %}
+						<li><a href="{{p.url}}">{{p.title}}</a></li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="Makers of fine electronics since 2013.">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="Arachnid Labs" href="http://www.arachnidlabs.com/atom.xml" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1></h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/about/index.html">About</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/labs-cards/index.html">Circuit pattern trading cards</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-2/index.html">Re:load 2</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-pro/index.html">Re:load Pro</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/minishift/index.html">Minishift</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+
+
+
+<div class="page clearfix">
+	<h1>How Loki avoids pin conflicts</h1>
+	<img src="" />
+ 
+<p>In <a href="/blog/2013/01/22/introducing-loki/">an earlier post</a>, I mentioned that Loki has a novel way of avoiding the pin conflict issues that plague other stackable expansion board systems. Today we’ll take a closer look at just how that works.</p>
+
+<p><img src="https://lh4.googleusercontent.com/-tsz2IdYroc8/UQGkures4PI/AAAAAAAACY0/2MpcIDu5QBQ/w372-h201-n-k/IMG_20130124_211127.jpg" alt="" /></p>
+
+<p>Most stackable expansion systems, such as Arduino, use long-tail thru-hole headers, that connect directly from the receptacles on the top of the board through to the pins on the bottom. These are convenient - though surprisingly hard to come by - and straightforward, but have a major issue: stacked boards must avoid using the same pins as each other, or they’ll be incompatible. Worse, there’s no good way for a shield designer to pick pins that won’t conflict, other than picking specific other shields to ensure compatibility with. Every user has to check carefully before purchasing a shield to ensure it won’t conflict with the other ones they want to use. Aside from being a hassle, this limits opportunities, making otherwise well suited expansions unusable.</p>
+
+<p>There must be a better way, right? Fortunately, there is, and Loki implements it. Here’s how it works: Instead of using thru-hole stacking headers, Loki uses surface mount headers on the bottom, and surface mount receptacles on the top. Common signals such as power, ground, and the I2C bus are passed straight through, bottom to top. IO pins, however, are handled somewhat differently.</p>
+
+<p>Instead of using any pins, each plank uses the first few pins from the GPIO bank. Then, it routes the remaining pins on the bottom header to the top, shifting them up to fill the ‘gaps’ left by the pins it consumed. So if a plank needs 4 pins, it will use pins 1-4 for itself, then connect the incoming pin number 5 to outgoing pin 1, 6 to 2, 7 to 3, and so forth. In this fashion, because used pins are never passed through, every pin can only ever be used by a single plank, and thus no plank has to worry about conflicts. You can keep stacking additional planks until you run out of IO pins!</p>
+
+<p>Of course, the reality is slightly more complicated than the theory, but only a little. A plank that needs to use a lot of IO pins could have some difficulty cleanly routing the remaining pins to the first headers on the top side, so Loki splits the pins into two independent banks, consisting of the first half and the last half of the pins. A plank must take an equal number of pins from each bank. This simplifies the routing somewhat, while still preserving the flexibility. It’s also possible - though uncommon - for a plank to take pins other than the first ones in a bank. This limits where in the stack the plank can practically be placed, but still works fine: the plank just ‘shifts up’ the remaining pins to fill the gaps.</p>
+
+<p>Here’s an example header layout for a plank that uses one pin from each bank:</p>
+
+<p><img src="https://lh4.googleusercontent.com/88V90srS1O-R4wAI3o6nlAmadROB5Gy5P3il9imbI2CIywJgCogtNdJzANDg-aYfEKl4Qt_v9qjFc1R0cU2FYlaV6zXbr8cMoIJJeL4g-6nERhZwyAz0" alt="" /></p>
+
+<p>As you have no doubt noticed from <a href="https://lh4.googleusercontent.com/-hinotxKY9e4/UP70GQ7E6bI/AAAAAAAACXQ/9lZJ6H0Z7Ww/s884/P1010166.JPG">the photos</a>, Loki has two expansion headers. The one on the top, a 2x16 header, contains all 32 GPIO pins, and uses the scheme described above. The one on the bottom, a 1x10 header, carries the power rails, ground, reset, the hardwired I2C bus, and a few other control signals we’ll go into later.</p>
+
+<p>If you’re curious to learn more, or start planning out your own expansion planks, a preliminary specification for planks is <a href="https://docs.google.com/document/d/1o2kg8sRGAV_mO6ycADnk_pME490gHMmBCJu4eNQzvfI/edit">available here</a>. Beware that it may change before 1.0 - so if you are intending to make a board, <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#105;&#099;&#107;&#064;&#097;&#114;&#097;&#099;&#104;&#110;&#105;&#100;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;">get in touch</a> first!</p>
+
+<p>Some of you may be thinking that this system, ingenious though it may be, could lead to some confusion regarding which microcontroller pins are assigned to which plank pins, and you’d be right. Loki has a clever solution to that conundrum too - the details of which will be revealed in a future blog post.</p>
+
+</div>
+
+
+		</div>
+
+		<footer class="clearfix">
+			<p>2014 &copy Arachnid Labs | Theme designed by <a href="http://www.themeforest.net/user/uziiuzair">Uzair Hayat</a></p>
+
+			<ul class="social">
+				<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+				<!--<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+				<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+
+		</footer>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-84449-7']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</body>
+</html>

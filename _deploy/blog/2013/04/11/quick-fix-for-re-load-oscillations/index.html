@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="Makers of fine electronics since 2013.">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="Arachnid Labs" href="http://www.arachnidlabs.com/atom.xml" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1></h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/about/index.html">About</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/labs-cards/index.html">Circuit pattern trading cards</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-2/index.html">Re:load 2</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-pro/index.html">Re:load Pro</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/minishift/index.html">Minishift</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+
+
+
+<div class="page clearfix">
+	<h1>Quick fix for Re:load oscillations</h1>
+	<img src="" />
+ 
+<p>I’ve discovered a situation in which Re:load (both regular and epic) can generate ripple on the Device Under Test. This is only of concern to users who are using the Re:load to characterize power supplies - it won’t affect you if you are generating a load for other purposes such as testing a device’s output capability - and only occurs at voltages between 3 and 5 volts and currents over 1 amp.</p>
+
+<p>Fortunately, this is easily remedied. Here’s the procedure:</p>
+
+<ol>
+  <li>Cut pin 2 of the MCP6002 opamp IC.</li>
+  <li>Attach a 10k resistor between pin 2 of the MCP6002 opamp and the left hand leg of the 0.05 ohm shunt resistor.</li>
+  <li>Attach a capacitor of between 10nF and 100nF (0.1uF) between legs 1 and 2 of the opamp.</li>
+</ol>
+
+<p>Here’s a photo of the completed modification:</p>
+
+<p><img src="https://lh5.googleusercontent.com/-j6B16yiQQWs/UWcgDNHhqtI/AAAAAAAADmc/C1PGuPOen5c/w584-h437-p-o/IMG_20130411_212436.jpg" /></p>
+
+<p>If you think this issue might affect you and you’re not confident in making the modification yourself, please email me at <a href="mailto:nick@arachnidlabs.com">nick@arachnidlabs.com</a>, and we can arrange for return shipping, and I will perform the modification for you.</p>
+
+<p>Version 2 of the Re:load, which I’m currently designing, will include the modification, as well as having several other improvements, such as a lower minimum voltage and a higher maximum voltage.</p>
+
+</div>
+
+
+		</div>
+
+		<footer class="clearfix">
+			<p>2014 &copy Arachnid Labs | Theme designed by <a href="http://www.themeforest.net/user/uziiuzair">Uzair Hayat</a></p>
+
+			<ul class="social">
+				<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+				<!--<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+				<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+
+		</footer>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-84449-7']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</body>
+</html>

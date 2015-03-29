@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="Makers of fine electronics since 2013.">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="Arachnid Labs" href="http://www.arachnidlabs.com/atom.xml" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1></h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/about/index.html">About</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/labs-cards/index.html">Circuit pattern trading cards</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-2/index.html">Re:load 2</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-pro/index.html">Re:load Pro</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/minishift/index.html">Minishift</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+
+
+
+<div class="page clearfix">
+	<h1>The Loki Sound Plank</h1>
+	<img src="" />
+ 
+<p>Time for a look at another one of the initial expansion planks for the Loki: The Sound plank.</p>
+
+<p><img src="https://lh3.googleusercontent.com/-97CVCWIpImk/UQLmDzpt3-I/AAAAAAAACa8/k8ygv6WcPkA/w388-h290-n-k/P1010190.JPG" alt="" /></p>
+
+<p>This plank takes advantage of the PSoC processor’s built in analog functionality to offer audio input and output options few microcontroller platforms can offer - at least, not affordably! The plank supports two stereo line jacks - one for line level output, the second for either input or output - and a 1W mono amplifier that can drive small speakers. It also has an IR receiver module as an option.</p>
+
+<p>The plank takes 6 IO lines: Two for each line jack, one for digital volume control of the amplifier, and one for the IR receiver. As you can see from the photo, it doesn’t need very many components at all: a couple of film capacitors on each jack provide DC blocking, while the line in has protection diodes to protect the microcontroller against overvoltage. The amplifier is a single chip, the <a href="http://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/TDA7052A_AT.pdf">TDA7052A</a>. It provides a 1 watt mono amplifier with an absolute minimum of external components. The speaker output is provided on a screw terminal at the bottom of the board.</p>
+
+<p>All of this is complemented beautifully by the PSoC’s built in analog features. Analog features vary from chip to chip in the PSoC 5 range, but all have at least one ADC and one DAC; most have 2 or more DACs. In addition, most of the line have configurable analog blocks, which can be configured to act as programmable gain amplifiers and as sample-and-hold units, amongst other functions. Finally, most of the line have dedicated opamps that are accessible both internally on external pins.</p>
+
+<p>When placed at the bottom of the stack, the Sound Plank is configured such that the outputs of two of the dedicated opamps are connected to the line out jack. This means the Loki can provide a very low impedance line output, perfect for good quality audio. Even when elsewhere in the stack, or connected to a processor that does not have dedicated opamps, the built in analog hardware still provides a good analog path.</p>
+
+<p>Once connected, the user has a lot of options. The configurable analog blocks can be set up as sample and hold devices, allowing a single DAC to drive multiple channels, or the outputs can be driven directly from multiple DACs. PWM can even be used, if desired - all configured inside the chip. On the input side, the ADC can be configured to sample alternately from each channel at anything up to 700k samples per second.</p>
+
+<p>All up, the Audio Plank will provide an exceptionally flexible solution for simple audio input and output on the Loki.</p>
+
+</div>
+
+
+		</div>
+
+		<footer class="clearfix">
+			<p>2014 &copy Arachnid Labs | Theme designed by <a href="http://www.themeforest.net/user/uziiuzair">Uzair Hayat</a></p>
+
+			<ul class="social">
+				<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+				<!--<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+				<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+
+		</footer>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-84449-7']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</body>
+</html>

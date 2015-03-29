@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+
+		<meta name="description" content="Makers of fine electronics since 2013.">
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css">
+		<link rel="alternate" type="application/rss+xml" title="Arachnid Labs" href="http://www.arachnidlabs.com/atom.xml" />
+	
+		<link rel="icon" type="image/png" href="/img/fav.png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="/js/wow.min.js"></script>
+
+		<script>
+  			$(document).ready(function(){
+    			$("#nav").sticky({topSpacing:0});
+  			});
+		</script>
+
+		<script type="text/javascript">
+			var wow = new WOW(
+			  {
+			    boxClass:     'wow',      // animated element css class (default is wow)
+			    animateClass: 'animated', // animation css class (default is animated)
+			    offset:       0,          // distance to the element when triggering the animation (default is 0)
+			    mobile:       true,       // trigger animations on mobile devices (default is true)
+			    live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script>
+
+		<!-- If the browser version of IE is less than 9 load HTML5 & CSS3 polyfills -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+
+		<div class="intro">
+			
+			<div class="center">
+				<img src="/images/arachnidlabs.svg">
+
+				<ul class="social">
+					<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+<!--					<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+					<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div id="nav" class="clearfix">
+			
+			<div class="wrapper">
+				
+				<div class="logo">
+					
+					<h1></h1>
+
+				</div>
+
+				<nav>
+					
+					<ul class="clearfix">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="https://www.tindie.com/stores/arachnidlabs/">Shop</a></li>
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/about/index.html">About</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/labs-cards/index.html">Circuit pattern trading cards</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-2/index.html">Re:load 2</a></li>
+							
+						
+							
+							
+							
+								<li><a href="/reload-pro/index.html">Re:load Pro</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+								<li><a href="/minishift/index.html">Minishift</a></li>
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+							
+							
+							
+						
+					</ul>
+
+				</nav>
+				
+			</div>
+
+		</div>
+
+		<div class="container">
+			
+
+
+
+<div class="page clearfix">
+	<h1>Electronics Patterns</h1>
+	<img src="" />
+ 
+<p>Coming from a software background to electronics, I tend to try and apply tools and techniques I learned in one to the other. Some skills and approaches transfer very well, while others don’t. One that seems to transfer very well is the technique of looking at schematics in terms of <a href="http://en.wikipedia.org/wiki/Software_design_pattern">design patterns</a>.</p>
+
+<p>Design patterns are quite common in software, and provide an easy way to break down a system into components that you already understand, rather than trying to understand the system as one large piece. Happily, you can take much the same approach to analyzing, understanding, and composing electronic circuits - and once you start to learn common patterns, understanding an unfamiliar circuit becomes a great deal simpler!</p>
+
+<p>An example ought to make this clearer. Here’s the equivalent schematic for a simple operational amplifier, <a href="http://en.wikipedia.org/wiki/File:OpAmpTransistorLevel_Colored_Labeled.svg">courtesy of Wikipedia</a>:</p>
+
+<p><img src="/images/OpAmpTransistorLevel.svg" width="600" /></p>
+
+<p>Complicated, right? But it gets a lot easier to understand when you know how to break it up into its constituent parts, and recognise the repeating patterns:</p>
+
+<p><img src="/images/OpAmpTransistorLevel_Colored_Labeled.svg" width="600" /></p>
+
+<p>In this annotated image, current mirrors are outlined in red, a differential amplifier in blue, voltage level shifter in green, and an output stage in cyan. Each of these are components that can be understood independent of each other, and you’ll see them repeated again and again in different designs. Some of them can be broken down further into sub-patterns, too!</p>
+
+<p>Or, how about a simpler example. Here’s an excerpt from the Arduino Uno schematic, the part that controls switching between USB and DC plugpack power:</p>
+
+<p><img src="/images/uno-voltage-selector.svg" width="400" /></p>
+
+<p>And here it is, annotated to show the patterns, simple though they are:</p>
+
+<p><img src="/images/uno-voltage-selector-colored-labeled.svg" width="400" /></p>
+
+<p>Here, the blue box depicts a voltage divider, the green a comparator, and the red a FET switch.</p>
+
+<p>This doesn’t just apply to analog circuits, either - you’ll find common patterns in digital, in power electronics, in fact pretty much everywhere there’s human designers at work. Most people learn to recognize them implicitly, and certainly there are a number of them that get taught as such. Everyone knows what a resistor divider does, for instance, or learns it pretty quickly.</p>
+
+<p>I think there’s a lot of value in using patterns as a teaching tool directly, though, and once I sat down with the explicit goal of identifying and describing patterns, it wasn’t hard to find a lot of them. I thought it would be very neat to print them off on cards; I could publish the source online, and include one in each Arachnid Labs package I sent out.</p>
+
+<p>It didn’t take long to pick out 32 patterns, ranging from the extremely common and well known, to the more advanced or esoteric - a collection I hope will have something in it for everyone. I got a few printed by <a href="http://www.moo.com/">Moo</a>, and took them with me to my first Mini Maker Faire, at Elephant and Castle.</p>
+
+<p>Here’s a few example cards. The ubiquitous resistor divider, of course:</p>
+
+<p><img src="/images/resistor_divider_card.png" width="400" /></p>
+
+<p>Or how about a capacitative voltage doubler, from power electronics:</p>
+
+<p><img src="/images/voltage_doubler_card.png" width="400" /></p>
+
+<p>If digital’s more your style, there’s the SR latch:</p>
+
+<p><img src="/images/sr_latch_card.png" width="400" /></p>
+
+<p>As you can see, each card is color coded by type, and has a schematic and a short description of its functionality, along with relevant equations and other information.</p>
+
+<p>At the Maker Faire, they were popular beyond my wildest imagination. People weren’t content with just one - they wanted whole decks! I wasn’t really prepared for this, but after the faire, I sought out a small run printing service and got my own decks with tuckboxes made. Now they’re even being <a href="http://www.adafruit.com/products/1474">resold by Adafruit!</a>.</p>
+
+<p>As with everything else produced by Arachnid Labs, the full source is <a href="https://github.com/arachnidlabs/labs-cards/">available on GitHub</a>. The source files are all HTML, rendered using <a href="http://plessl.github.io/wkpdf/">wkpdf</a> - apologies to anyone using Linux or Windows, though I’m certain alternatives will work with a little tweaking. The schematics are all exported from Eagle using a script that’s part of the makefile.</p>
+
+<p>Of course, if you’d just like a set for yourself without all the hassle, they’re <a href="https://www.tindie.com/products/arachnidlabs/circuit-patterns-trading-cards-full-deck/">available on Tindie</a>, too.</p>
+
+<p>Do you have a favorite electronics pattern that you’d like to see explained better? I’m pondering expansion decks focused on specific fields such as digital, power and analog, and I’d love to hear what patterns you think warrant going in one. Leave a note in the comments!</p>
+
+</div>
+
+
+		</div>
+
+		<footer class="clearfix">
+			<p>2014 &copy Arachnid Labs | Theme designed by <a href="http://www.themeforest.net/user/uziiuzair">Uzair Hayat</a></p>
+
+			<ul class="social">
+				<li><a href="https://github.com/arachnidlabs"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/arachnidlabs"><i class="fa fa-twitter"></i></a></li>
+				<!--<li><a href=""><i class="fa fa-youtube-play"></i></a></li>-->
+				<li><a href="https://plus.google.com/+Arachnidlabs/"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+
+		</footer>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-84449-7']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</body>
+</html>
