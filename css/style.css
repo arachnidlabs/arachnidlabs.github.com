@@ -193,99 +193,96 @@
 		width: 100%;
 	}
 
-		.mypost {
-			width: 96%;
-			margin: 0 auto;
-			margin-top: 50px;
-			padding: 30px;
-			background-color: #fff;
-			border-bottom: 1px solid #ddd;
-			cursor: pointer;
-			-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
-		    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-		    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
-		    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
-		    -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.2);
-			-moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.2);
-			box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.2);
+	.mypost {
+		width: 96%;
+		margin: 0 auto;
+		margin-top: 50px;
+		padding: 30px;
+		background-color: #fff;
+		border-bottom: 1px solid #ddd;
+		-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+	    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	    -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.2);
+		-moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.2);
+		box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.2);
+	}
+
+	.mypost:first-child {
+		margin-top: 0;
+	}
+
+	/*.mypost:hover h1, .mypost:hover p, .mypost:hover a {
+		color: #fff;
+	}*/
+
+	.mypost a {
+		-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+	    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	}
+
+	.mypost a:after {
+		content: " ";
+		-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+	    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	}
+
+	.mypost .date {
+		position: absolute;
+		margin-top: 5px;
+		margin-left: 6px;
+		background: #3dd1cc;
+		padding: 11px;
+		border-radius: 60px;
+		-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+	    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	}
+
+	.mypost h1 a {
+		color: black;
+	}
+
+	.mypost:hover .date {
+		/*background-color: #fff;*/
+	}
+
+	.mypost:hover .date p {
+		color: #fff;
+	}
+
+	.mypost .date p {
+		font-size: 10px;
+		text-align: center;
+		color: #fff;
+	}
+
+	.mypost .date .date-top {
+		width: 100%;
+	}
+
+		.mypost .date p.date-top {
+			font-size: 18px;
 		}
 
-		.mypost:first-child {
-			margin-top: 0;
-		}
+	.mypost .date .date-bottom {
+		width: 100%;
+	}
 
+	.mypost .readmore {
+		display: block;
+		margin-top: 20px;
+	}
 
-
-		.mypost:hover {
-			background-color: #f1f1f1;
-		}
-
-		/*.mypost:hover h1, .mypost:hover p, .mypost:hover a {
-			color: #fff;
-		}*/
-
-		.mypost a {
-			-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
-		    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-		    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
-		    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
-		}
-
-		.mypost a:after {
-			content: " ";
-			-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
-		    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-		    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
-		    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
-		}
-
-		.mypost .date {
-			position: absolute;
-			margin-top: 5px;
-			margin-left: 6px;
-			background: #3dd1cc;
-			padding: 11px;
-			border-radius: 60px;
-			-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
-		    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-		    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
-		    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
-		}
-
-		.mypost:hover .date {
-			/*background-color: #fff;*/
-		}
-
-		.mypost:hover .date p {
-			color: #fff;
-		}
-
-		.mypost .date p {
-			font-size: 10px;
-			text-align: center;
-			color: #fff;
-		}
-
-		.mypost .date .date-top {
-			width: 100%;
-		}
-
-			.mypost .date p.date-top {
-				font-size: 18px;
-			}
-
-		.mypost .date .date-bottom {
-			width: 100%;
-		}
-
-		.mypost .readmore {
-			display: block;
-			margin-top: 20px;
-		}
-
-		.mypost .postcontent {
-			margin-left: 95px; 
-		}
+	.mypost .postcontent {
+		margin-left: 95px; 
+	}
 
 
 	/* Posts Double */
@@ -875,4 +872,9 @@
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
+}
+
+/* Customizations */
+#disqus_thread {
+	margin-top: 2em;
 }
