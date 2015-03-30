@@ -53,7 +53,7 @@ This also feels like significantly less design risk and cost than integrating tw
 
 # Maker friendly?
 
-It's hard to see why these little chips aren't more popular and well known, especially with hobbyists, than they are now. They're really cheap, [the devkit](http://www.silego.com/buy/index.php?main_page=product_info&products_id=321) is affordable at only $60, and Silego will produce a run of chips preprogrammed with your design on tape-and-reel at quantities starting at 1, for a very nominal price; the $0.50 price I keep quoting includes programming at quantities from 250 units and up.
+It's hard to see why these little chips aren't more popular and well known, especially with hobbyists, than they are now. They're really cheap, [the devkit](http://www.silego.com/buy/index.php?main_page=product_info&products_id=321) is affordable at only $60, and Silego will produce a run of chips preprogrammed with your design on tape-and-reel at quantities starting at 1, for a very nominal price; the $0.50 price I keep quoting includes programming at quantities from 250 units and up. The IDE is available for Windows, Mac, and Linux.
 
 Their datasheets even fully document the bitstream the chips use for programming; this chip is just dying for someone to write a VHDL or Verilog compiler for it.
 
