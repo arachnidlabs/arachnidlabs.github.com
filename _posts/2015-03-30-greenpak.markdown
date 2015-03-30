@@ -64,3 +64,5 @@ There's just one thing: these little chips really are just that: little. The sta
 Yes, that's the pad of my thumb. These things really are tiny, and that really can be a bit of an impediment. Anyone with a soldering iron, some flux, and a bit of magnification can solder these - though having hot air certainly makes life simpler - but prototyping on a breadboard is going to be tough, and they certainly require a bit of patience to get right by hand on a PCB, unless you've got stencils and solderpaste.
 
 The obvious solution to this is breakout boards; you'll still need to solder them on, but from there you can plug them into a breadboard and use them like regular DIP chips. Or, to take it a step further, prepopulated breakouts, and an adapter for their excellent devkit to allow programming them in that form factor. Any takers?
+
+*Full disclosure:* I don't have any association with Silego or their parts other than being a happy customer. I just think their stuff is neat, and wanted to tell people about it.
