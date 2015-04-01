@@ -15,6 +15,7 @@ encoding: utf-8
 
 # Google Analytics
 trackingcode: "UA-84449-7" #Please add your tracking Code Eg: UA-XXXXXXXX-X
+ga_domain: "arachnidlabs.com"
 
 # Build settings
 markdown: kramdown
