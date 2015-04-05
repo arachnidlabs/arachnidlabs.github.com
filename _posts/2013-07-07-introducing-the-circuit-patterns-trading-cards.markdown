@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Introducing the Circuit Patterns Trading Cards"
 date: 2013-07-07 15:34
 comments: true

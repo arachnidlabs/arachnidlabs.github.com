@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Tsunami signal generator up on Kickstarter"
 date: 2015-03-16 16:22
 comments: true

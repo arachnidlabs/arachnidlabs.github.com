@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Circuit Patterns Trading Cards now available on amazon.co.uk"
 date: 2014-02-04 09:57
 comments: true

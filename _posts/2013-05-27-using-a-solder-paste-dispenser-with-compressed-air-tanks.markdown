@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Using a solder paste dispenser with compressed air tanks"
 date: 2013-05-27 13:00
 comments: true

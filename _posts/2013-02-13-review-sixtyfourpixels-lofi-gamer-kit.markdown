@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Review: SixtyFourPixels LoFi Gamer Kit"
 date: 2013-02-13 19:37
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Improvements to the re:load"
 date: 2013-02-06 20:48
 comments: true

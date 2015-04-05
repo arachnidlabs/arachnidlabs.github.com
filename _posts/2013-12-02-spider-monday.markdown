@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Spider Monday"
 date: 2013-12-02 07:38
 comments: true

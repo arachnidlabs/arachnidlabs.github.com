@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Minishift now in stock and shipping"
 date: 2014-04-13 18:51
 comments: true

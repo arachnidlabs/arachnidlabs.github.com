@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "New version of the stencil8 tooling blocks"
 date: 2013-07-14 16:17
 comments: true

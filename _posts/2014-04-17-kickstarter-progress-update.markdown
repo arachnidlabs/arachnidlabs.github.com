@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Kickstarter progress update"
 date: 2014-04-17 07:44
 comments: true

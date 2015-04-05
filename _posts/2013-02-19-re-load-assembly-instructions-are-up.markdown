@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load assembly instructions are up"
 date: 2013-02-19 21:57
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "The Loki Display Plank"
 date: 2013-01-23 18:24
 comments: true

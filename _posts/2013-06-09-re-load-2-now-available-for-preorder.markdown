@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load 2 now available for preorder"
 date: 2013-06-09 19:03
 comments: true

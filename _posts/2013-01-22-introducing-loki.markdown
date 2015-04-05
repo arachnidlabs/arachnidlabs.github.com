@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Introducing Loki"
 date: 2013-01-22 18:45
 comments: true

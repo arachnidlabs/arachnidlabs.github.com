@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Minimatrix now available!"
 date: 2013-07-15 15:51
 comments: true

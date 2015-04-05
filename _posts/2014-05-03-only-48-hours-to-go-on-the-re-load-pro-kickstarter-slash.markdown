@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Only 48 hours to go on the Re:load Pro Kickstarter!"
 date: 2014-05-03 09:27
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Modern day PALs with Greenpak"
 date: 2015-03-30 19:50
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Electronics Patterns"
 date: 2013-10-17 22:14
 comments: true

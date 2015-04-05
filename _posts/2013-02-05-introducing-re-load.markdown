@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Introducing re:load"
 date: 2013-02-05 19:33
 comments: true

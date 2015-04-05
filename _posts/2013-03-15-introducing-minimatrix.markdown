@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Introducing minimatrix"
 date: 2013-03-15 18:17
 comments: true

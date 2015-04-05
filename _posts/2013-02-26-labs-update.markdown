@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Labs update"
 date: 2013-02-26 22:57
 comments: true

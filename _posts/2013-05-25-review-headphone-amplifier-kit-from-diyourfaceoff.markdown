@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Review: Headphone Amplifier Kit from diyourfaceoff"
 date: 2013-05-25 18:11
 comments: true

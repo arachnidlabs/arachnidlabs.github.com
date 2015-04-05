@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Better component storage"
 date: 2014-02-20 09:34
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load 20W heatsink back in stock"
 date: 2014-01-13 20:35
 comments: true

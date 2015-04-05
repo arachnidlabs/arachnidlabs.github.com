@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load build pictures"
 date: 2013-03-25 23:01
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Daily progress report"
 date: 2013-01-31 21:53
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load v2 now in stock and shipping"
 date: 2013-07-09 21:44
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "How Loki avoids pin conflicts"
 date: 2013-01-24 20:52
 comments: true

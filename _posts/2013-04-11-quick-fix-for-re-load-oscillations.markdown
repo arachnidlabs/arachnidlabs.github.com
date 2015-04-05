@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Quick fix for Re:load oscillations"
 date: 2013-04-11 21:35
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Arachnid Labs at the Elephant and Castle Mini Maker Faire"
 date: 2013-06-24 20:53
 comments: true

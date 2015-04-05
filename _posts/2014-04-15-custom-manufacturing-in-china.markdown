@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Custom manufacturing in China"
 date: 2014-04-15 19:31
 comments: true

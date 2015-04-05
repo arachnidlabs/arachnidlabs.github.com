@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Freebooter, an OSS bootloader for the PSoC"
 date: 2013-02-25 20:49
 comments: true

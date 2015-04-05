@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Plug and Play configuration with Loki"
 date: 2013-01-28 19:05
 comments: true

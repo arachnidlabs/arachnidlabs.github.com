@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Announcing Re:load v2"
 date: 2013-05-30 17:00
 comments: true

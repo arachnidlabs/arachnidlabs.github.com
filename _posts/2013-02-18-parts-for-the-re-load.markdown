@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Parts for the Re:load!"
 date: 2013-02-18 20:53
 comments: true

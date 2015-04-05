@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Inside Minimatrix"
 date: 2013-04-05 09:51
 comments: true

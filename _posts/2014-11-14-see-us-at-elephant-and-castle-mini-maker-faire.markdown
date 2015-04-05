@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "See us at Elephant and Castle Mini Maker faire"
 date: 2014-11-14 18:50
 comments: true

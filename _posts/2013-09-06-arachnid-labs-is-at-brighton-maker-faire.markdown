@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Arachnid Labs is at Brighton Maker Faire"
 date: 2013-09-06 09:52
 comments: true

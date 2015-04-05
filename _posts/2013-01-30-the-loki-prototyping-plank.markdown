@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "The Loki Prototyping Plank"
 date: 2013-01-30 21:45
 comments: true

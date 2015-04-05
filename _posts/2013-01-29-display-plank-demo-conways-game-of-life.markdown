@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Display Plank demo: Conway's Game of Life"
 date: 2013-01-29 21:04
 comments: true

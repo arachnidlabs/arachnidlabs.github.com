@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "The Loki Motor Plank"
 date: 2013-02-01 22:41
 comments: true

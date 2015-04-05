@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Constant Current Plank"
 date: 2013-02-04 21:25
 comments: true

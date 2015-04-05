@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load Pro status update"
 date: 2014-06-17 22:13
 comments: true

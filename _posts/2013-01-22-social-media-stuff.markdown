@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Social media stuff"
 date: 2013-01-22 21:05
 comments: true

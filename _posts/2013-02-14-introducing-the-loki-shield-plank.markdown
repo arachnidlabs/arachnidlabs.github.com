@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Introducing the Loki Shield Plank"
 date: 2013-02-14 20:13
 comments: true

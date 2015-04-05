@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Re:load Pro Fan Kit now available for preorder"
 date: 2014-11-24 19:10
 comments: true

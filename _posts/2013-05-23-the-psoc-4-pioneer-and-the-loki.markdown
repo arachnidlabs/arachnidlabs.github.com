@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "The PSoC 4 Pioneer and the Loki"
 date: 2013-05-23 22:41
 comments: true

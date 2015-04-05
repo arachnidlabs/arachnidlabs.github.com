@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Welcome to Arachnid Labs"
 date: 2013-01-22 07:52
 comments: true

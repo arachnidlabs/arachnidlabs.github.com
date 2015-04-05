@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Minimatrix now available in green"
 date: 2013-08-09 22:08
 comments: true

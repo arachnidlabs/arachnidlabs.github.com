@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Thanks to everyone who visited our booth!"
 date: 2013-07-07 11:26
 comments: true

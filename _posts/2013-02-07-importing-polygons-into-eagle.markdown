@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Importing polygons into Eagle"
 date: 2013-02-07 20:57
 comments: true

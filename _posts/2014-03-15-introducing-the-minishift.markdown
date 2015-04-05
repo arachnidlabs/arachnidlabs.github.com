@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Introducing the Minishift"
 date: 2014-03-15 18:32
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "usb-if: No VID for open source"
 date: 2013-10-18 22:24
 comments: true

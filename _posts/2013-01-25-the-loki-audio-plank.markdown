@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "The Loki Sound Plank"
 date: 2013-01-25 20:18
 comments: true

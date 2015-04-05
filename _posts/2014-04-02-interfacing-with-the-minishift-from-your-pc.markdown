@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: disquspost
 title: "Interfacing with the Minishift from your PC"
 date: 2014-04-02 21:43
 comments: true
