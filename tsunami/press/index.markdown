@@ -34,7 +34,7 @@ Embed:
 
 # Product photos
 
-<table style=>
+<table>
 <tr><td>
 	<img src="tsunami-1-thumbnail.jpeg">
 </td>
@@ -43,6 +43,7 @@ Embed:
 	<a href="tsunami-1-small.jpeg">Low resolution</a>
 	<a href="tsunami-1-thumbnail.jpeg">Thumbnail</a>
 </td>
+</tr>
 <tr><td>
 	<img src="tsunami-2-thumbnail.jpeg">
 </td>
@@ -51,6 +52,7 @@ Embed:
 	<a href="tsunami-2-small.jpeg">Low resolution</a>
 	<a href="tsunami-2-thumbnail.jpeg">Thumbnail</a>
 </td>
+</tr>
 <tr><td>
 	<img src="tsunami-3-thumbnail.jpeg">
 </td>
@@ -59,6 +61,7 @@ Embed:
 	<a href="tsunami-3-small.jpeg">Low resolution</a>
 	<a href="tsunami-3-thumbnail.jpeg">Thumbnail</a>
 </td>
+</tr>
 <tr><td>
 	<img src="tsunami-4-thumbnail.jpeg">
 </td>
@@ -67,6 +70,7 @@ Embed:
 	<a href="tsunami-4-small.jpeg">Low resolution</a>
 	<a href="tsunami-4-thumbnail.jpeg">Thumbnail</a>
 </td>
+</tr>
 </table>
 
 
