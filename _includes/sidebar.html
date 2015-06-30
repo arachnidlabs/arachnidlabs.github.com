@@ -3,6 +3,11 @@
 		{% for p in site.pages %}
 			{% if p.section == page.section and p.toc %}
 				<h1><a href="{{p.url}}">{{p.title}}</a></h1>
+				{% if p.links %}
+					{% for link in p.links %}
+						<li><a href="{{link[1]}}">{{link[0]}}</a></li>
+					{% endfor %}
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 		<ul>
