@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Books that think (and play Hangman)"
+date: 2015-12-17 16:00
+comments: true
+categories: candlepower
+---
+A good book makes you think. But what if you make the book think, instead?
+
+I've long been fascinated with the idea of inanimate objects that compute, or otherwise do things outside the bounds of their normal function. Examples of this include [mechanical calculators](https://en.wikipedia.org/wiki/Curta), slide rules, and [choose your own adventure books](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure); a more recent and directly relevant example is [Tic Tac Tome](http://www.amazon.co.uk/Tic-Tac-Tome-Autonomous-Playing/dp/1594746877), a book that will play you at Tic-tac-toe.
+
+What these all have in common is that they're an otherwise inert object that, when a human operator follows a set of directions, can 'execute' algorithms or produce behaviours beyond that which the object itself can achieve. They're a real life example of a [chinese room](https://en.wikipedia.org/wiki/Chinese_room).
+
+When a friend recently asked if a book could play Hangman, it set me thinking about these sort of objects, again, and I decided to see just how practical it was. It turns out that yes, you can 'teach' a book to play Hangman, and it does a decent job of it, too.
+
+The first task is to pick a word list to use. I wanted something that included many common words, and which I could tune to the size I needed; that eliminated ordinary word lists. I also wanted to restrict it to nouns, since (in my experience, at least) that's what people most often guess in hangman.
+
+In the end, the [Google Books n-gram corpus](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html) proved to be a good match. The 1-gram list provides an enormous dataset of words, frequency counts (by book and total occurrences) part of speech, and publication date, and with a little work can be used to extract, say, the most common 50,000 nouns in books published since 1980. A little sanitisation is necessary; the list contains many nonwords and proper nouns, and particularly short words (fewer than 3 characters) and particularly long ones (longer than, say, 15 characters) aren't particularly interesting for Hangman. Eliminating the nonwords is easily done by comparng the list against a regular dictionary; I used the scrabble dictionary.
+
+Then, it's a matter of figuring out the best way to transcribe a game of hangman - or, really, all possible games of hangman - into book form. This also turns out to be relatively straightforward, and works like this:
+
+<ol style="padding-bottom: 1em; margin-left: 2em;">
+<li>Pick the most common letter from your list of words, and guess that.</li>
+<li>Separate the words into groups according to the pattern they make with that letter guessed (eg, 'dead' when guessing 'e' produces the pattern '_e__')</li>
+<li>For each group created, repeat from step 1 with just those words.</li>
+</ol>
+
+This recursive procedure creates a tree structure, with each node corresponding to a guess the book makes. Leaf nodes represent final guesses, where the book declares "your word is 'dead'!". A few more tweaks and improvements are necessary; for instance, there's no point guessing a letter if every remaining word contains it, and there's likewise no point in using up your last guess if there's only two options and you can only get one of them right.
+
+After building the tree structure and cleaning it up a bit, formatting it into book form is a relatively straightforward matter of writing CSS and HTML. I found it worked best when sections are sorted topologically, so you always proceed forwards through the book as it makes guesses, and each section tends to be close to the previous one.
+
+One advantage of the way we chose the wordlist at the beginning is that you can tune the length of the wordlist to suit the size of the book you want to produce. I wanted something that was a reasonable, usable size, so I settled on 500 pages; this works out to about 4000 words. A simple second pass that identifies words that can be added without requiring new sections brings the total count up to about 6800 words.
+
+It's interesting to note that shorter words are much harder to guess in hangman than longer ones, because they have fewer letters, and form fewer patterns with the letters they do have. You're better thinking of 'sky' than 'disciplinarian' when it comes to hangman. As a result, there are a few short common words that the book knows of but can't guess in the alotted number of wrong guesses (6, in the version I always played growing up), none of them longer than 5 characters. In the other direction, if you pick a long word that it knows, it may well figure it out after just a single guessed letter!
+
+And, to answer the question you're undoubtedly asking right now: Yes, this exists as a real book. I'm calling it Dead Tree, and thanks to the wonders of print-on-demand, it's available now from [amazon.com](http://amzn.com/1519708890) and [amazon.co.uk](http://www.amazon.co.uk/dp/1519708890), just in time for the holiday season. If you know a geek who's as fascinated as me with things that compute, this might make a good gift for them.
+
+What's more, the book is open-source, and you can find the source files - wordlist, generating program, and everything else, [here on GitHub](https://github.com/arachnidlabs/hangman/).
+
+<script type='text/javascript'>
+var amzn_wdgt={widget:'MyFavorites'};
+amzn_wdgt.tag='amawid-21';
+amzn_wdgt.columns='1';
+amzn_wdgt.rows='3';
+amzn_wdgt.title='Dead Tree';
+amzn_wdgt.width='250';
+amzn_wdgt.ASIN='1519708890';
+amzn_wdgt.showImage='True';
+amzn_wdgt.showPrice='True';
+amzn_wdgt.showRating='True';
+amzn_wdgt.design='2';
+amzn_wdgt.colorTheme='Orange';
+amzn_wdgt.headerTextColor='#FFFFFF';
+amzn_wdgt.marketPlace='GB';
+</script>
+<script type='text/javascript' src='http://wms-eu.amazon-adsystem.com/20070822/GB/js/AmazonWidgets.js'>
+</script>
