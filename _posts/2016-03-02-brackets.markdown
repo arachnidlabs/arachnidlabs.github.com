@@ -29,8 +29,8 @@ We spent some time looking, and it turns out that nobody makes small, pretapped 
 
 With a little searching, we found someone who could do what we needed, at a price that's reasonable. I present, the Arachnid Labs Angle Bracket:
 
-![Angle bracket](/images/brackets-1-side.png)
-![Angle bracket top](/images/brackets-1-top.png)
+<img src="/images/brackets-1-side.png" width="300" alt="Angle bracket">
+<img src="/images/brackets-1-top.png" width="300" alt="Angle bracket top">
 
 At its core, it's a simple L-shaped angle bracket, with two pretapped M3 holes. It replaces two nuts, and with a few of them you can assemble a wide array of boxes and enclosures with very little time and trouble. The results are significantly more robust than you'd see with most other techniques, too.
 
