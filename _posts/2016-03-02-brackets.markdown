@@ -15,12 +15,13 @@ But then, your box is glued shut; you're going to have a hard time modifying it.
 
 Assuming you can find square nuts, that works pretty well in thicker materials, but it's fiddly, and in thinner materials, like the 3mm or eighth-inch ply and acrylic most of us use, the bolts are as thick as the material, which leads to issues with fragility and bolts and nuts protruding from the joints - not ideal.
 
-If you want to get really fancy, you can make a tab-and-slot joint:
+If you want to get really fancy, you can make a tab-and-slot joint with a lasercut clip:
 
 ![Tab and slot joint](/images/tab-and-slot.jpg)
+
 (Images courtesy [this excellent Make article](http://makezine.com/2012/04/13/cnc-panel-joinery-notebook/))
 
-These work great in acrylic, but ply isn't robust enough, and you can't build your box with sides that end flush.
+These work great in acrylic, but ply isn't robust enough, and you can't build your box with flush corners.
 
 There must be a better way to do this, right? That's what I thought, and the humble angle bracket comes to our rescue.
 
@@ -28,16 +29,16 @@ We spent some time looking, and it turns out that nobody makes small, pretapped 
 
 With a little searching, we found someone who could do what we needed, at a price that's reasonable. I present, the Arachnid Labs Angle Bracket:
 
-![Angle bracket](/images/brackets-1-side.jpg)
-![Angle bracket top](/images/brackets-1-top.jpg)
+![Angle bracket](/images/brackets-1-side.png)
+![Angle bracket top](/images/brackets-1-top.png)
 
 At its core, it's a simple L-shaped angle bracket, with two pretapped M3 holes. It replaces two nuts, and with a few of them you can assemble a wide array of boxes and enclosures with very little time and trouble. The results are significantly more robust than you'd see with most other techniques, too.
 
-![Companion cube lasercut box](/images/companion-cube-box.jpeg)
+<img src="/images/companion-cube-box.jpeg" width="580" alt="Companion cube lasercut box">
 
 What makes the brackets really easy to work with is the extra tab you see sticking out on one side. By cutting a matching slot into one side of the joint, you can easily position the bracket during assembly, lining it up for the screw perfectly.
 
-![Example bracket installation](/images/brackets-example-3.JPG)
+<img src="/images/brackets-example-3.JPG" width="580" alt="Example bracket installation">
 
 We've had a small production run of 1000 brackets made to test out, and they came out brilliantly.
 
