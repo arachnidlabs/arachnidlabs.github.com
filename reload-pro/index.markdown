@@ -8,7 +8,7 @@ footer: true
 toc: true
 section: reload-pro
 ---
-**The Re:load Pro is currently available on Tindie! [Get yours here](https://www.tindie.com/products/arachnidlabs/reload-pro/)!**
+**The Re:load Pro is currently available on Crowd Supply! [Get yours here](https://www.crowdsupply.com/arachnid-labs/re-load-pro)!**
 
 <img src="rlpro-side.jpg" width="500">
 
