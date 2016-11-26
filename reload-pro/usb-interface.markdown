@@ -23,6 +23,22 @@ lines from the Re:load Pro. Programs implementing the protocol should expect
 that they may receive such responses at any time, and code accordingly.
 
 Commands and arguments are case-sensitive.
+# Command quick reference
+
+| Command | Arguments   | Response       |    Period   | Function                                                                                |
+|---------|-------------|----------------|:-----------:|-----------------------------------------------------------------------------------------|
+| bl      |             | 'ok'           |     Once    | Enter bootloader mode                                                                   |
+| set     | I           | 'set I'        |     Once    | Set current to I (mA)                                                                   |
+| mode    | MODE        | 'mode MODE'    |     Once    | Set operating mode                                                                      |
+| read    |             | 'read mV mA'   |     Once    | Returns readings from the unit. Output may include other measurements on later firmware |
+| reset   |             | 'ok'           |     Once    | Clear over temperature and under voltage alarm and sets current to 0                    |
+| monitor | INTERVAL    | See 'read'     | INTERVAL ms | Sets up automatic printing of the read command (INTERVAL==0 to disable)                 |
+| uvlo    | voltage     | uvlo voltage   |     Once    | Sets the UVLO threshold in mV                                                           |
+| on      |             | 'ok'           |     Once    | Turns the load on                                                                       |
+| off     |             | 'ok'           |     Once    | Turns the load off                                                                      |
+| debug   |             | debugging data |     Once    | Prints various debugging information as 'info' lines                                    |
+| version |             | version info   |             | Returns the current firmware version in dotted decimal                                  |
+| cal     | command arg | varies         |     Once    | Calibration commands. See calibration                                                   |
 
 # Command reference
 
@@ -55,6 +71,16 @@ Returns an 'ok' response.
 Enables monitoring with an interval of INTERVAL milliseconds. Every x milliseconds, a
 'read' response will be returned until 'monitor 0' is sent to cease monitoring.
 The first response will occur after INTERVAL milliseconds, rather than immediately.
+
+## uvlo voltage
+Sets the undervoltage cut off voltage to voltage, in millivolts.
+Returns 'uvlo voltage', with voltage in mV.
+
+## on
+Turns the load on, enables the load to start drawing power
+
+## off
+Turns the load off, stops the load drawing power.
 
 ## debug
 Outputs a series of debugging information lines as 'info' messages.
