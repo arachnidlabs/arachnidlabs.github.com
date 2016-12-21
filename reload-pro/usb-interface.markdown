@@ -39,6 +39,7 @@ Commands and arguments are case-sensitive.
 | debug   |             | debugging data |     Once    | Prints various debugging information as 'info' lines                                    |
 | version |             | version info   |             | Returns the current firmware version in dotted decimal                                  |
 | cal     | command arg | varies         |     Once    | Calibration commands. See calibration                                                   |
+| clear   |             | 'ok'           |     Once    | Clears the totals for mAh and mWh                                                       |
 
 # Command reference
 
@@ -118,6 +119,10 @@ is the maximum test current level to use in calibration.
 
 ## version
 From v1.6: Returns the current firmware version number in a 'version' response.
+
+## clear
+This clears the totals for the mAh and mWh counters. This is the same as the menu item 'Reset Totals'.
+Returns an 'ok' response.
 
 # Response reference
 
